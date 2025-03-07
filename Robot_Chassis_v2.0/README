@@ -1,0 +1,88 @@
+设置关节零点
+EB 09 01 02 index1 index2 0D 0A
+index1:左右（左0，右1）
+index2:关节索引
+EB 09 01 02 01 00 0D 0A
+
+设置关节方向
+EB 09 02 02 index1 index2  0D 0A
+index1:左右（左0，右1）
+index2:关节索引
+EB 09 02 02 00 01 0D 0A
+
+保存至flash
+EB 09 0F 02 index1 index2  0D 0A
+index1:左右（左0，右1）
+index2:关节索引
+EB 09 0F 02 00 01 0D 0A
+
+升级指定芯片
+EB 09 BB 02 index1 index2  0D 0A
+index1:左右（左0，右1）
+index2:关节索引
+EB 09 BB 02 00 01 0D 0A
+
+更改芯片升级标志位
+EB 09 0B 02 index1 index2  0D 0A
+index1:左右（左0，右1）
+index2:关节索引
+EB 09 0B 02 00 01 0D 0A
+
+更改全部芯片升级标志位
+EB 09 DD 02 index1 index2  0D 0A
+index1:左右（左0，右1）
+index2:关节索引
+EB 09 DD 02 00 01 0D 0A
+
+升级全部芯片
+EB 09 0D 02 index1 index2  0D 0A
+index1:左右（左0，右1）
+index2:首关节索引
+EB 09 0D 02 00 01 0D 0A
+
+
+芯片软复位
+EB 09 FF 02 index1 index2  0D 0A
+index1:左右（左0，右1）
+index2:关节索引
+EB 09 FF 02 00 01 0D 0A
+
+切换串口数据输出
+EB 09 04 01 00 0D 0A
+
+
+指令发送报文
+0x02 0xfd index1 index2 index3 index4 index5 index6 index7 index8 index9 ....... index10 index11 0x03 0xfc
+0x02 0xfd : 头帧
+index1 index2 : 报文长度 高八位低八位
+index3 : 设备标号1：底盘设备。
+                2、充电站设备。
+                3、左机械臂设备。
+                4：右机械臂设备。
+                5、从臂夹爪。
+                6、左侧主臂。
+                7、右测主臂。
+index4 ：报文类型：类型1：心跳 。
+                类型2：指令。
+                类型3：OTA报文
+index5 : 报文版本：1：对应V1版本
+                 2：对应V2版本
+index6 : 时间是否同步 ：高4bit表示时间是否同步：1已同步。
+                     0：未同步时间
+                     1：已同步
+                     低4bit表示应答位：需要应答
+                     0：不需要应答
+                     1：需要应答
+index7 index8 ：任务序号两个字节，发送一次自增1。从0xfff0开始增加，到0xffff后跳变为0。
+index9 ： 下发速度指令号。其他指令根据不同功能可进行分区形成列表
+..... : 数据段
+index10 index11 ：crc16_modbus校验(低位在前，高位在后)
+0x03 0xfc : 尾帧
+
+
+接收应答分析
+0x02 0xfd index1 0x03 0xfc
+index1 ： 0x01 :OK
+         0x02 : NG
+         0x03 : 握手成功
+         0x04 : 接收结束
