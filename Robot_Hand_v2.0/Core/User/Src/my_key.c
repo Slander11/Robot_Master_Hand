@@ -18,15 +18,15 @@
 uint8_t g_Key_Matrix[ROWS][COLS] = {0};        /* 按键状态数组 */
 uint8_t g_Key_Matrix2[4] = {0};                /* 按键状态数组2 */
 
-GPIO_TypeDef* row_ports[ROWS] = {GPIOA, GPIOA, GPIOA};
-uint16_t row_pins[ROWS] = {GPIO_PIN_0, GPIO_PIN_1, GPIO_PIN_2};
 
-GPIO_TypeDef* col_ports[COLS] = {GPIOA, GPIOA, GPIOA};
-uint16_t col_pins[COLS] = {GPIO_PIN_3, GPIO_PIN_4, GPIO_PIN_5};
+GPIO_TypeDef* row_ports[ROWS] = {_3_3row1_GPIO_Port, _3_3row2_GPIO_Port, _3_3row3_GPIO_Port};
+uint16_t row_pins[ROWS] = {_3_3row1_Pin, _3_3row2_Pin, _3_3row3_Pin};
 
-GPIO_TypeDef* key_ports[4] = {GPIOB, GPIOA, GPIOA , GPIOA};
+GPIO_TypeDef* col_ports[COLS] = {_3_3col1_GPIO_Port, _3_3col2_GPIO_Port, _3_3col3_GPIO_Port};
+uint16_t col_pins[COLS] = {_3_3col1_Pin, _3_3col2_Pin, _3_3col3_Pin};
+
+GPIO_TypeDef* key_ports[4] = {Enable_Switch_GPIO_Port, Toggle_Switch_Up_GPIO_Port, Toggle_Switch_Mid_GPIO_Port , Toggle_Switch_Down_GPIO_Port};
 uint16_t key_pins[4] = {Enable_Switch_Pin, Toggle_Switch_Up_Pin, Toggle_Switch_Mid_Pin, Toggle_Switch_Down_Pin};
-
 
 /**
   * @brief       3*3 按键扫描
@@ -40,11 +40,11 @@ void KeyScan(void)
 
     uint8_t current_state;
 
-    for(int row=0; row<ROWS; row++) {
-        /* 拉低当前行 */
+    for(int row = 0; row < ROWS; row++) {
+        /* 拉低行电平 */
         HAL_GPIO_WritePin(row_ports[row], row_pins[row], GPIO_PIN_RESET);
 
-        /* 短暂延时确保电平稳定 */
+        /* 短暂延时 */
         HAL_Delay(1);
 
         /* 读取所有列状态 */

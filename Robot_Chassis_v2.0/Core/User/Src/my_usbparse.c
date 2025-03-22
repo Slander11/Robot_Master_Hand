@@ -17,12 +17,13 @@
 
 uint8_t g_ParseResults = 0;
 uint8_t g_OutManner = 0;
-uint8_t g_AllUpgrade = 0;
+uint16_t g_AllUpgrade = 0;
 uint8_t g_Shakehands = 0;
 uint8_t g_UpgradeBegin = 0;
 uint8_t g_ReceiveNg = 0;
 uint8_t g_EndData = 0;
 
+uint32_t g_id = 0x99;
 /**
  * @brief       接收命令解析函数
  * @param       **
@@ -172,17 +173,23 @@ static void SetDaisySensorUpgradeall(uint8_t *_data)
 {
     uint32_t ID = 0;
     uint8_t data_upgrade = 0xbb;
-    for (int i = 0; i < 2; ++i)
-    {
-        for (int j = 1; j < 9; ++j) {
-            ID = 0x200 + (1 * i) + j;
+    for (int j = 1; j < 9; ++j) {
+            ID = 0x200 | j;
             CanSendMsg(ID, &data_upgrade , 1);
-        }
+            HAL_Delay(50);
     }
+    HAL_Delay(50);
+    for (int j = 1; j < 9; ++j) {
+        ID = 0x210 | j;
+        CanSendMsg(ID, &data_upgrade , 1);
+        HAL_Delay(50);
+    }
+    HAL_Delay(50);
+
 }
 
 /**
- * @brief       给全部芯片升级
+ * @brief       给全部关节芯片升级
  * @param       _data : 关键报文
  * @retval      **
  */
@@ -191,7 +198,7 @@ static void CanFlashMoveDataAll(uint8_t *_data)
     uint8_t u8_msg[64] = {0};
     uint8_t u8_canid = 0;
     uint8_t u8_rdflash[32] = {0};
-    uint8_t u8_kindid[2] = {0x03,0x01};
+    uint8_t u8_kindid[2] = {0x53,0x01};
 
     /* 获取需要升级的canid */
     if (0 == _data[0])
@@ -202,23 +209,33 @@ static void CanFlashMoveDataAll(uint8_t *_data)
     {
         u8_canid = _data[1] | 0x10;
     }
-    while(g_AllUpgrade != 240)
+
+    g_AllUpgrade = 0;
+
+    while(0x3fff != g_AllUpgrade)
     {
+        /* 重新进入清除状态 */
+        g_Shakehands = 0;
+        g_ReceiveNg = 0;
+        g_EndData = 0;
+        g_UpgradeBegin = 0;
+
         /* 发送握手包 */
+        u8_kindid[1] = 0x01;
         GeneralFrameUPInit(&Boot_Frame,1,u8_kindid,&BootLoader_RingBuff_t);
         BootPack(&Boot_Frame,u8_rdflash,u8_canid);
         AgreementEncapsula(&Boot_Frame,u8_msg);
-        CanSendMsg(0x222,u8_msg,FDCAN_DLC_BYTES_48);
+        CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
 
         /* 等待接收到握手信息 */
-        while(0 == g_Shakehands) {
+        while(!g_Shakehands) {
          if (1 == g_ReceiveNg) {
              /* 发送握手包 */
              GeneralFrameUPInit(&Boot_Frame,1,u8_kindid,&BootLoader_RingBuff_t);
              BootPack(&Boot_Frame,u8_rdflash,u8_canid);
              AgreementEncapsula(&Boot_Frame,u8_msg);
-             CanSendMsg(0x222,u8_msg,FDCAN_DLC_BYTES_48);
-             g_Shakehands = 0;
+             CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
+             g_ReceiveNg = 0;
          }
         }
 
@@ -233,7 +250,7 @@ static void CanFlashMoveDataAll(uint8_t *_data)
             FlashRead(addr,(uint32_t *)u8_rdflash,8);
             BootPack(&Boot_Frame,u8_rdflash,u8_canid);
             AgreementEncapsula(&Boot_Frame,u8_msg);
-            CanSendMsg(0x222,u8_msg,FDCAN_DLC_BYTES_48);
+            CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
             addr += 32;
 
             /* 判断数据是否发送完成 */
@@ -243,19 +260,24 @@ static void CanFlashMoveDataAll(uint8_t *_data)
                 GeneralFrameUPInit(&Boot_Frame,1,u8_kindid,&BootLoader_RingBuff_t);
                 BootPack(&Boot_Frame,u8_rdflash,u8_canid);
                 AgreementEncapsula(&Boot_Frame,u8_msg);
-                CanSendMsg(0x222,u8_msg,FDCAN_DLC_BYTES_48);
+                CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
                 u8_canid += 0x01;
-                g_Shakehands = 0;
+                if (0x8 == u8_canid) {
+                    u8_canid = 0x11;
+                }
                 while (0 == g_EndData) {
                     if (1 == g_ReceiveNg) {
+                        u8_canid -= 0x01;
+                        if (0x10 == u8_canid) {
+                            u8_canid = 0x08;
+                        }
                         u8_kindid[1] = 0x03;
                         GeneralFrameUPInit(&Boot_Frame,1,u8_kindid,&BootLoader_RingBuff_t);
                         BootPack(&Boot_Frame,u8_rdflash,u8_canid);
                         AgreementEncapsula(&Boot_Frame,u8_msg);
-                        CanSendMsg(0x222,u8_msg,FDCAN_DLC_BYTES_48);
-                        continue;
+                        CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
+                        g_ReceiveNg = 0;
                     }
-                    g_EndData = 0;
                 }
                 break;
             }
@@ -270,50 +292,69 @@ static void CanFlashMoveDataAll(uint8_t *_data)
                     FlashRead(addr,(uint32_t *)u8_rdflash,8);
                     BootPack(&Boot_Frame,u8_rdflash,u8_canid);
                     AgreementEncapsula(&Boot_Frame,u8_msg);
-                    CanSendMsg(0x222,u8_msg,FDCAN_DLC_BYTES_48);
-                    g_Shakehands = 0;
+                    CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
+                    g_ReceiveNg = 0;
                 }
             }
 
             /* 清除写入标志 */
             g_UpgradeBegin = 0;
         }
+        /* 清除写入标志 */
+        g_UpgradeBegin = 0;
     }
     /* 清除全部升级完成标志位 */
     g_AllUpgrade = 0;
 }
 
 /**
- * @brief       给全部芯片升级
+ * @brief       给单个芯片升级
  * @param       _data : 关键报文
  * @retval      **
  */
 static void CanFlashMoveData(uint8_t *data)
 {
+
     uint8_t u8_msg[64] = {0};
     uint8_t u8_canid = 0;
     uint8_t u8_rdflash[32] = {0};
-    uint8_t u8_kindid[2] = {0x03,0x01};
+    uint8_t u8_kindid[2] = {0x53,0x01};
+
+    /* 获取需要升级的canid */
+    if (0 == data[0])
+    {
+        u8_canid = data[1];
+    }
+    else
+    {
+        u8_canid = data[1] | 0x10;
+    }
+
     while(1)
     {
-        /* 获取需要升级的canid */
-        if (0 == data[0])
-        {
-            u8_canid = data[1];
-        }
-        else
-        {
-            u8_canid = data[1] | 0x10;
-        }
+        /* 重新进入清除状态 */
+        g_Shakehands = 0;
+        g_ReceiveNg = 0;
+        g_EndData = 0;
+        g_UpgradeBegin = 0;
 
         /* 发送握手包 */
         GeneralFrameUPInit(&Boot_Frame,1,u8_kindid,&BootLoader_RingBuff_t);
         BootPack(&Boot_Frame,u8_rdflash,u8_canid);
         AgreementEncapsula(&Boot_Frame,u8_msg);
-        CanSendMsg(0x222,u8_msg,FDCAN_DLC_BYTES_48);
+        CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
 
         /* 等待接收到握手信息 */
-        while(!g_Shakehands);
+        while(!g_Shakehands) {
+            if (1 == g_ReceiveNg) {
+                /* 发送握手包 */
+                GeneralFrameUPInit(&Boot_Frame,1,u8_kindid,&BootLoader_RingBuff_t);
+                BootPack(&Boot_Frame,u8_rdflash,u8_canid);
+                AgreementEncapsula(&Boot_Frame,u8_msg);
+                CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
+                g_ReceiveNg = 0;
+            }
+        }
 
         /* 设置app2地址 */
         uint32_t addr = BANK1_FLASH_PAGE(32);
@@ -326,7 +367,7 @@ static void CanFlashMoveData(uint8_t *data)
             FlashRead(addr,(uint32_t *)u8_rdflash,8);
             BootPack(&Boot_Frame,u8_rdflash,u8_canid);
             AgreementEncapsula(&Boot_Frame,u8_msg);
-            CanSendMsg(0x222,u8_msg,FDCAN_DLC_BYTES_48);
+            CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
             addr += 32;
 
             /* 判断数据是否发送完成 */
@@ -336,12 +377,35 @@ static void CanFlashMoveData(uint8_t *data)
                 GeneralFrameUPInit(&Boot_Frame,1,u8_kindid,&BootLoader_RingBuff_t);
                 BootPack(&Boot_Frame,u8_rdflash,u8_canid);
                 AgreementEncapsula(&Boot_Frame,u8_msg);
-                CanSendMsg(0x222,u8_msg,FDCAN_DLC_BYTES_48);
+                CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
+
+                while (0 == g_EndData) {
+                    if (1 == g_ReceiveNg) {
+                        u8_kindid[1] = 0x03;
+                        GeneralFrameUPInit(&Boot_Frame,1,u8_kindid,&BootLoader_RingBuff_t);
+                        BootPack(&Boot_Frame,u8_rdflash,u8_canid);
+                        AgreementEncapsula(&Boot_Frame,u8_msg);
+                        CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
+                        g_ReceiveNg = 0;
+                    }
+                }
                 return;
             }
 
             /* 等待允许继续发送升级固件 */
-            while(!g_UpgradeBegin);
+            while(!g_UpgradeBegin) {
+                if (1 == g_ReceiveNg) {
+                    addr -= 32;
+                    /* 发送升级固件 */
+                    u8_kindid[1] = 0x02;
+                    GeneralFrameUPInit(&Boot_Frame,1,u8_kindid,&BootLoader_RingBuff_t);
+                    FlashRead(addr,(uint32_t *)u8_rdflash,8);
+                    BootPack(&Boot_Frame,u8_rdflash,u8_canid);
+                    AgreementEncapsula(&Boot_Frame,u8_msg);
+                    CanSendMsg(g_id,u8_msg,FDCAN_DLC_BYTES_48);
+                    g_ReceiveNg = 0;
+                }
+            }
 
             /* 清除写入标志 */
             g_UpgradeBegin = 0;
@@ -390,6 +454,13 @@ void USBReceiveDataProcess(uint8_t *_pdata)
             break;
         case REBOOT:
             NVIC_SystemReset();
+            break;
+        case TURNOFF:
+            TurnOfAllDev();
+            break;
+        case TURNON:
+            TurnOnAllDev();
+            break;
         default:
             break;
     }
@@ -405,6 +476,40 @@ void ChangeData() {
         g_OutManner = 1;
     } else {
         g_OutManner = 0;
+    }
+}
+
+/**
+ * @brief       关闭所有设备
+ * @param       **
+ * @retval      **
+ */
+void TurnOfAllDev() {
+    uint8_t data_flash = 0x55;
+    for (int i = 1; i < 9; i++) {
+       CanSendMsg(0x200 + i,&data_flash,FDCAN_DLC_BYTES_1);
+        HAL_Delay(10);
+    }
+    for (int i = 1; i < 9; i++) {
+        CanSendMsg(0x210 + i,&data_flash,FDCAN_DLC_BYTES_1);
+        HAL_Delay(10);
+    }
+}
+
+/**
+ * @brief       打开所有设备
+ * @param       **
+ * @retval      **
+ */
+void TurnOnAllDev() {
+    uint8_t data_flash = 0x56;
+    for (int i = 1; i < 9; i++) {
+        CanSendMsg(0x200 + i,&data_flash,FDCAN_DLC_BYTES_1);
+        HAL_Delay(10);
+    }
+    for (int i = 1; i < 9; i++) {
+        CanSendMsg(0x210 + i,&data_flash,FDCAN_DLC_BYTES_1);
+        HAL_Delay(10);
     }
 }
 

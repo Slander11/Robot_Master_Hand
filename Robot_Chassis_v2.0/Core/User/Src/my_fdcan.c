@@ -83,7 +83,7 @@ uint8_t CanSendMsg(uint32_t _id, uint8_t *_msg, uint32_t _len)
     TXHeader.TxFrameType = FDCAN_DATA_FRAME;
     TXHeader.DataLength = _len;
     TXHeader.ErrorStateIndicator = FDCAN_ESI_PASSIVE;
-    TXHeader.BitRateSwitch = FDCAN_BRS_ON;
+    TXHeader.BitRateSwitch = FDCAN_BRS_OFF;
     TXHeader.FDFormat = FDCAN_FD_CAN;
     TXHeader.TxEventFifoControl = FDCAN_NO_TX_EVENTS;
     TXHeader.MessageMarker = 0x00;
@@ -225,7 +225,7 @@ static int GetFdCanBoot(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg)
  */
 static uint8_t GetFDcanData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg)
 {
-   if (180 > _RxHeader->Identifier)     /* 正常处理数据流程 */
+   if (0x100 < _RxHeader->Identifier)     /* 正常处理数据流程 */
    {
        AnalyseData(_RxHeader,_RxMsg,g_lAngel_Buff,g_rAngel_Buff,g_key_Buff);
    }
@@ -237,20 +237,46 @@ static uint8_t GetFDcanData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg)
        if (enough == ret)               /* 从机数据接收成功 */
        {
            g_UpgradeBegin = 1;
-           /* 获取id号 */
-           uint32_t id = 0;
-           id = _RxHeader->Identifier;
-
        }
        else if (hand_shake == ret)      /* 从机握手成功 */
        {
            g_Shakehands = 1;
-           /* 获取id号 */
-           uint32_t id = 0;
-           id = _RxHeader->Identifier;
        }
        else if (end_data == ret) {
            g_EndData = 1;
+
+           /* 获取id号 */
+           uint32_t id = 0;
+           id = _RxHeader->Identifier;
+           if (id == 0x11) {
+               g_AllUpgrade |= 0x0001;
+           }else if (id == 0x12) {
+               g_AllUpgrade |= 0x0002;
+           }else if (id == 0x13) {
+               g_AllUpgrade |= 0x0004;
+           }else if (id == 0x14) {
+               g_AllUpgrade |= 0x0008;
+           }else if (id == 0x15) {
+               g_AllUpgrade |= 0x0010;
+           }else if (id == 0x16) {
+               g_AllUpgrade |= 0x0020;
+           }else if (id == 0x17) {
+               g_AllUpgrade |= 0x0040;
+           }else if (id == 0x31) {
+               g_AllUpgrade |= 0x0080;
+           }else if (id == 0x32) {
+               g_AllUpgrade |= 0x0100;
+           }else if (id == 0x33) {
+               g_AllUpgrade |= 0x0200;
+           }else if (id == 0x34) {
+               g_AllUpgrade |= 0x0400;
+           }else if (id == 0x35) {
+               g_AllUpgrade |= 0x0800;
+           }else if (id == 0x36) {
+               g_AllUpgrade |= 0x1000;
+           }else if (id == 0x37) {
+               g_AllUpgrade |= 0x2000;
+           }
        }
        else if (no_begin == ret || no_end == ret || no_enough == ret) {
            g_ReceiveNg = 1;

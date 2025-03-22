@@ -88,7 +88,8 @@ void HardFault_Handler(void)
   volatile uint32_t counter = 0;  // 定义一个volatile变量，用于计数
   volatile uint32_t state = 0;    // 定义一个volatile变量，用于表示状态
   /* USER CODE END HardFault_IRQn 0 */
-  while (1) {
+  while (1)
+  {
     /* USER CODE BEGIN W1_HardFault_IRQn 0 */
     counter++;  // 每次进入HardFault时，计数器加1
 

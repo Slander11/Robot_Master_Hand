@@ -24,6 +24,7 @@ extern uint32_t g_ChipId;
 static void CanFilterInit(void);
 static uint8_t GetFDcanData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *RxMsg);
 static void ReceiveAnalyse(uint8_t *_data, uint32_t _size);
+uint8_t g_Turnoffdev = 0;
 /**
  * @brief       canfd初始化
  * @param       **
@@ -35,7 +36,9 @@ void CanInit(void)
     CanFilterInit();
     /* 开启接收中断 */
     HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0);
-    HAL_FDCAN_Start(&hfdcan1);
+    if (HAL_ERROR == HAL_FDCAN_Start(&hfdcan1)) {
+        while (1);
+    }
 }
 
 /**
@@ -79,7 +82,7 @@ uint8_t CanSendMsg(uint32_t _id, uint8_t *_msg, uint32_t _len)
     TXHeader.TxFrameType = FDCAN_DATA_FRAME;
     TXHeader.DataLength = _len;
     TXHeader.ErrorStateIndicator = FDCAN_ESI_PASSIVE;
-    TXHeader.BitRateSwitch = FDCAN_BRS_ON;
+    TXHeader.BitRateSwitch = FDCAN_BRS_OFF;
     TXHeader.FDFormat = FDCAN_FD_CAN;
     TXHeader.TxEventFifoControl = FDCAN_NO_TX_EVENTS;
     TXHeader.MessageMarker = 0x00;
@@ -110,11 +113,10 @@ void SendAngleState()
     }
     else {
         /* 发送角度 */
-        uint8_t id = 0x100 | flash_param.can_id;
-        BitToUint32_value trans;
-        trans.uint32 = g_ChipId;
-        CanSendMsg(id, trans.bit, FDCAN_DLC_BYTES_4);
-
+        uint32_t id = 0x100 | flash_param.can_id;
+        BitToHex_value trans;
+        trans.hex = g_AmsDataprocessAngle;
+        CanSendMsg(id, trans.bit, FDCAN_DLC_BYTES_2);
     }
 }
 
@@ -191,9 +193,7 @@ static uint8_t GetFDcanData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_TXmessage
     }
     else if ((0x200 | flash_param.can_id) == _RxHeader->Identifier)
     {
-       if ( 0x1 == _TXmessage[0]){
         ReceiveAnalyse(_TXmessage, _RxHeader->DataLength);
-      }
     }
 }
 
@@ -231,6 +231,14 @@ static void ReceiveAnalyse(uint8_t *_data, uint32_t _size)
             case 0x11:
             /* 修改编码器方向 */
         	ReviseDirection();
+            break;
+            case 0x55:
+            /* 关闭can传输 */
+            g_Turnoffdev = 1;
+            break;
+            case 0x56:
+            /* 开启can传输 */
+            g_Turnoffdev = 0;
             break;
             case 0xbb:
             /* 下次启动升级 */

@@ -1,25 +1,25 @@
 Archive member included to satisfy reference by file (symbol)
 
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-errno.o)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
                               CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/syscalls.c.obj (__errno)
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
                               c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (exit)
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
-                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o) (_global_impure_ptr)
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o) (_global_impure_ptr)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
                               c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (__libc_init_array)
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
                               c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (memset)
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
-                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o) (__call_exitprocs)
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
-                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o) (atexit)
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
-                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
-                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
-c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
-                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o) (__call_exitprocs)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o) (atexit)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                              c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o) (__register_exitproc)
 
 Discarded input sections
 
@@ -99,7 +99,7 @@ Discarded input sections
                 0x00000000       0xa8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/syscalls.c.obj
  .debug_ranges  0x00000000       0x98 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/syscalls.c.obj
  .debug_line    0x00000000      0x40f CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00000000      0x444 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00000000      0x447 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/syscalls.c.obj
  .comment       0x00000000       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/syscalls.c.obj
  .debug_frame   0x00000000      0x190 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
@@ -117,7 +117,7 @@ Discarded input sections
                 0x00000000       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/sysmem.c.obj
  .debug_ranges  0x00000000       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/sysmem.c.obj
  .debug_line    0x00000000      0x1bd CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/sysmem.c.obj
- .debug_str     0x00000000      0x270 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00000000      0x273 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/sysmem.c.obj
  .comment       0x00000000       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/sysmem.c.obj
  .debug_frame   0x00000000       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/sysmem.c.obj
  .ARM.attributes
@@ -140,9 +140,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
  .data          0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
- .text.CanFilterInit
-                0x00000000       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
- .text.CanInit  0x00000000       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
  .text          0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
  .data          0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
@@ -165,6 +162,8 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
  .text.VL6180X_Read_ID
                 0x00000000        0xa CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+ .text.VL6180X_Read_Range
+                0x00000000       0x36 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
  .text          0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
  .data          0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
@@ -341,7 +340,7 @@ Discarded input sections
                 0x00000000       0xf0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
  .debug_ranges  0x00000000      0x200 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
  .debug_line    0x00000000     0x1f65 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
- .debug_str     0x00000000     0x130f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
+ .debug_str     0x00000000     0x1312 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
  .debug_frame   0x00000000      0x2c8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
  .ARM.attributes
@@ -422,7 +421,7 @@ Discarded input sections
                 0x00000000       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
  .debug_ranges  0x00000000       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
  .debug_line    0x00000000      0x51f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
- .debug_str     0x00000000      0x6cd CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
+ .debug_str     0x00000000      0x6d0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
  .debug_frame   0x00000000       0x8c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
  .ARM.attributes
@@ -455,7 +454,7 @@ Discarded input sections
                 0x00000000       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
  .debug_ranges  0x00000000       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
  .debug_line    0x00000000      0x7a5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
- .debug_str     0x00000000      0x480 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
+ .debug_str     0x00000000      0x483 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
  .comment       0x00000000       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
  .debug_frame   0x00000000       0xf4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
  .ARM.attributes
@@ -471,8 +470,6 @@ Discarded input sections
                 0x00000000       0x3e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .text.HAL_FDCAN_ExitPowerDownMode
                 0x00000000       0x46 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
- .text.HAL_FDCAN_ConfigFilter
-                0x00000000       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .text.HAL_FDCAN_ConfigGlobalFilter
                 0x00000000       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .text.HAL_FDCAN_ConfigExtendedIdMask
@@ -515,8 +512,6 @@ Discarded input sections
                 0x00000000       0x24 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .text.HAL_FDCAN_DisableEdgeFiltering
                 0x00000000       0x24 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
- .text.HAL_FDCAN_Start
-                0x00000000       0x2e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .text.HAL_FDCAN_Stop
                 0x00000000       0x8a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .text.HAL_FDCAN_DeInit
@@ -621,7 +616,7 @@ Discarded input sections
                 0x00000000       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
  .debug_ranges  0x00000000       0x18 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
  .debug_line    0x00000000      0x233 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
- .debug_str     0x00000000      0x2f6 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
+ .debug_str     0x00000000      0x2f9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
  .comment       0x00000000       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
  .debug_frame   0x00000000       0x30 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
  .ARM.attributes
@@ -836,7 +831,7 @@ Discarded input sections
                 0x00000000       0x98 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
  .debug_ranges  0x00000000       0x88 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
  .debug_line    0x00000000      0x4a1 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
- .debug_str     0x00000000      0x6f0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
+ .debug_str     0x00000000      0x6f3 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
  .comment       0x00000000       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x120 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
  .ARM.attributes
@@ -1338,84 +1333,84 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
- .debug_str     0x00000000      0x16a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
+ .debug_str     0x00000000      0x16d CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
  .comment       0x00000000       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
  .ARM.attributes
                 0x00000000       0x2e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-errno.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-errno.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-errno.o)
- .text.__errno  0x00000000        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-errno.o)
- .debug_frame   0x00000000       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
  .ARM.attributes
-                0x00000000       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-errno.o)
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
- .text.exit     0x00000000       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
- .debug_frame   0x00000000       0x28 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+                0x00000000       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
  .ARM.attributes
-                0x00000000       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+                0x00000000       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .data._impure_ptr
-                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  .text.__call_exitprocs
-                0x00000000       0xc4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000       0xc4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_init
-                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_init_recursive
-                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_close
-                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_close_recursive
-                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_acquire
-                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_try_acquire
-                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_try_acquire_recursive
-                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_release
-                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .bss.__lock___arc4random_mutex
-                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .bss.__lock___at_quick_exit_mutex
-                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .bss.__lock___dd_hash_mutex
-                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .bss.__lock___env_recursive_mutex
-                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .bss.__lock___malloc_recursive_mutex
-                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .bss.__lock___sfp_recursive_mutex
-                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .bss.__lock___sinit_recursive_mutex
-                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .bss.__lock___tz_mutex
-                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
- .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
- .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
- .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+                0x00000000        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
@@ -1482,6 +1477,7 @@ LOAD CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4
 LOAD CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
 START GROUP
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
 END GROUP
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
@@ -1497,7 +1493,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x08010000                g_pfnVectors
                 0x080101d8                . = ALIGN (0x4)
 
-.text           0x080101d8     0x4580
+.text           0x080101d8     0x465c
                 0x080101d8                . = ALIGN (0x4)
  *(.text)
  .text          0x080101d8       0x40 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
@@ -1518,590 +1514,600 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x08010424       0xb0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/fdcan.c.obj
                 0x08010424                HAL_FDCAN_MspInit
  .text.MX_GPIO_Init
-                0x080104d4       0xc4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/gpio.c.obj
+                0x080104d4       0xc0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/gpio.c.obj
                 0x080104d4                MX_GPIO_Init
  .text.MX_I2C1_Init
-                0x08010598       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
-                0x08010598                MX_I2C1_Init
+                0x08010594       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
+                0x08010594                MX_I2C1_Init
  .text.HAL_I2C_MspInit
-                0x080105f0       0xb4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
-                0x080105f0                HAL_I2C_MspInit
+                0x080105ec       0xb4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
+                0x080105ec                HAL_I2C_MspInit
  .text.MX_IWDG_Init
-                0x080106a4       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/iwdg.c.obj
-                0x080106a4                MX_IWDG_Init
+                0x080106a0       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/iwdg.c.obj
+                0x080106a0                MX_IWDG_Init
  .text.SendDataIntegration
-                0x080106d0       0x74 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
-                0x080106d0                SendDataIntegration
+                0x080106cc       0x6c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+                0x080106cc                SendDataIntegration
  .text.StatusLightSwitch
-                0x08010744       0x4c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
-                0x08010744                StatusLightSwitch
+                0x08010738       0x4c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+                0x08010738                StatusLightSwitch
  .text.Error_Handler
-                0x08010790        0x4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
-                0x08010790                Error_Handler
+                0x08010784        0x4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+                0x08010784                Error_Handler
  .text.SystemClock_Config
-                0x08010794       0x74 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
-                0x08010794                SystemClock_Config
- .text.main     0x08010808       0xec CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
-                0x08010808                main
+                0x08010788       0x74 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+                0x08010788                SystemClock_Config
+ .text.main     0x080107fc       0xd0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+                0x080107fc                main
  .text.HAL_MspInit
-                0x080108f4       0x38 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
-                0x080108f4                HAL_MspInit
+                0x080108cc       0x38 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
+                0x080108cc                HAL_MspInit
  .text.NMI_Handler
-                0x0801092c        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x0801092c                NMI_Handler
- *fill*         0x0801092e        0x2 
+                0x08010904        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010904                NMI_Handler
+ *fill*         0x08010906        0x2 
  .text.HardFault_Handler
-                0x08010930       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x08010930                HardFault_Handler
+                0x08010908       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010908                HardFault_Handler
  .text.MemManage_Handler
-                0x08010978        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x08010978                MemManage_Handler
+                0x08010950        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010950                MemManage_Handler
  .text.BusFault_Handler
-                0x0801097a        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x0801097a                BusFault_Handler
+                0x08010952        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010952                BusFault_Handler
  .text.UsageFault_Handler
-                0x0801097c        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x0801097c                UsageFault_Handler
+                0x08010954        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010954                UsageFault_Handler
  .text.SVC_Handler
-                0x0801097e        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x0801097e                SVC_Handler
+                0x08010956        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010956                SVC_Handler
  .text.DebugMon_Handler
-                0x08010980        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x08010980                DebugMon_Handler
+                0x08010958        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010958                DebugMon_Handler
  .text.PendSV_Handler
-                0x08010982        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x08010982                PendSV_Handler
+                0x0801095a        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x0801095a                PendSV_Handler
  .text.SysTick_Handler
-                0x08010984        0x8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x08010984                SysTick_Handler
+                0x0801095c        0x8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x0801095c                SysTick_Handler
  .text.DMA1_Channel1_IRQHandler
-                0x0801098c       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x0801098c                DMA1_Channel1_IRQHandler
+                0x08010964       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010964                DMA1_Channel1_IRQHandler
  .text.FDCAN1_IT0_IRQHandler
-                0x0801099c       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x0801099c                FDCAN1_IT0_IRQHandler
+                0x08010974       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010974                FDCAN1_IT0_IRQHandler
  .text.FDCAN1_IT1_IRQHandler
-                0x080109ac       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x080109ac                FDCAN1_IT1_IRQHandler
+                0x08010984       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010984                FDCAN1_IT1_IRQHandler
  .text.TIM7_IRQHandler
-                0x080109bc       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                0x080109bc                TIM7_IRQHandler
+                0x08010994       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                0x08010994                TIM7_IRQHandler
  .text.SystemInit
-                0x080109cc        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
-                0x080109cc                SystemInit
- *fill*         0x080109ce        0x2 
+                0x080109a4        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
+                0x080109a4                SystemInit
+ *fill*         0x080109a6        0x2 
  .text.MX_TIM7_Init
-                0x080109d0       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
-                0x080109d0                MX_TIM7_Init
+                0x080109a8       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
+                0x080109a8                MX_TIM7_Init
  .text.HAL_TIM_Base_MspInit
-                0x08010a20       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
-                0x08010a20                HAL_TIM_Base_MspInit
+                0x080109f8       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
+                0x080109f8                HAL_TIM_Base_MspInit
  .text.Reset_Handler
-                0x08010a60       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
-                0x08010a60                Reset_Handler
+                0x08010a38       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
+                0x08010a38                Reset_Handler
  .text.Default_Handler
-                0x08010ab0        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
-                0x08010ab0                RTC_Alarm_IRQHandler
-                0x08010ab0                EXTI2_IRQHandler
-                0x08010ab0                TIM8_TRG_COM_IRQHandler
-                0x08010ab0                TIM8_CC_IRQHandler
-                0x08010ab0                TIM1_CC_IRQHandler
-                0x08010ab0                USB_HP_IRQHandler
-                0x08010ab0                CORDIC_IRQHandler
-                0x08010ab0                EXTI3_IRQHandler
-                0x08010ab0                I2C3_ER_IRQHandler
-                0x08010ab0                EXTI0_IRQHandler
-                0x08010ab0                I2C2_EV_IRQHandler
-                0x08010ab0                FPU_IRQHandler
-                0x08010ab0                TIM1_UP_TIM16_IRQHandler
-                0x08010ab0                ADC1_2_IRQHandler
-                0x08010ab0                SPI1_IRQHandler
-                0x08010ab0                TIM6_DAC_IRQHandler
-                0x08010ab0                TIM8_UP_IRQHandler
-                0x08010ab0                DMA2_Channel2_IRQHandler
-                0x08010ab0                DMA1_Channel4_IRQHandler
-                0x08010ab0                USART3_IRQHandler
-                0x08010ab0                TIM4_IRQHandler
-                0x08010ab0                DMA2_Channel1_IRQHandler
-                0x08010ab0                I2C1_EV_IRQHandler
-                0x08010ab0                DMA1_Channel6_IRQHandler
-                0x08010ab0                UART4_IRQHandler
-                0x08010ab0                DMA2_Channel4_IRQHandler
-                0x08010ab0                TIM3_IRQHandler
-                0x08010ab0                RCC_IRQHandler
-                0x08010ab0                Default_Handler
-                0x08010ab0                RTC_TAMP_LSECSS_IRQHandler
-                0x08010ab0                FMAC_IRQHandler
-                0x08010ab0                EXTI15_10_IRQHandler
-                0x08010ab0                UCPD1_IRQHandler
-                0x08010ab0                I2C3_EV_IRQHandler
-                0x08010ab0                EXTI9_5_IRQHandler
-                0x08010ab0                RTC_WKUP_IRQHandler
-                0x08010ab0                PVD_PVM_IRQHandler
-                0x08010ab0                SPI2_IRQHandler
-                0x08010ab0                DMA2_Channel5_IRQHandler
-                0x08010ab0                CRS_IRQHandler
-                0x08010ab0                DMA1_Channel5_IRQHandler
-                0x08010ab0                USB_LP_IRQHandler
-                0x08010ab0                EXTI4_IRQHandler
-                0x08010ab0                RNG_IRQHandler
-                0x08010ab0                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08010ab0                DMA1_Channel3_IRQHandler
-                0x08010ab0                WWDG_IRQHandler
-                0x08010ab0                LPUART1_IRQHandler
-                0x08010ab0                DMA2_Channel6_IRQHandler
-                0x08010ab0                TIM2_IRQHandler
-                0x08010ab0                COMP1_2_3_IRQHandler
-                0x08010ab0                EXTI1_IRQHandler
-                0x08010ab0                USART2_IRQHandler
-                0x08010ab0                I2C2_ER_IRQHandler
-                0x08010ab0                DMA1_Channel2_IRQHandler
-                0x08010ab0                TIM8_BRK_IRQHandler
-                0x08010ab0                FLASH_IRQHandler
-                0x08010ab0                USART1_IRQHandler
-                0x08010ab0                SPI3_IRQHandler
-                0x08010ab0                I2C1_ER_IRQHandler
-                0x08010ab0                LPTIM1_IRQHandler
-                0x08010ab0                DMAMUX_OVR_IRQHandler
-                0x08010ab0                USBWakeUp_IRQHandler
-                0x08010ab0                SAI1_IRQHandler
-                0x08010ab0                DMA2_Channel3_IRQHandler
-                0x08010ab0                COMP4_IRQHandler
-                0x08010ab0                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x08010ab2        0x2 
+                0x08010a88        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
+                0x08010a88                RTC_Alarm_IRQHandler
+                0x08010a88                EXTI2_IRQHandler
+                0x08010a88                TIM8_TRG_COM_IRQHandler
+                0x08010a88                TIM8_CC_IRQHandler
+                0x08010a88                TIM1_CC_IRQHandler
+                0x08010a88                USB_HP_IRQHandler
+                0x08010a88                CORDIC_IRQHandler
+                0x08010a88                EXTI3_IRQHandler
+                0x08010a88                I2C3_ER_IRQHandler
+                0x08010a88                EXTI0_IRQHandler
+                0x08010a88                I2C2_EV_IRQHandler
+                0x08010a88                FPU_IRQHandler
+                0x08010a88                TIM1_UP_TIM16_IRQHandler
+                0x08010a88                ADC1_2_IRQHandler
+                0x08010a88                SPI1_IRQHandler
+                0x08010a88                TIM6_DAC_IRQHandler
+                0x08010a88                TIM8_UP_IRQHandler
+                0x08010a88                DMA2_Channel2_IRQHandler
+                0x08010a88                DMA1_Channel4_IRQHandler
+                0x08010a88                USART3_IRQHandler
+                0x08010a88                TIM4_IRQHandler
+                0x08010a88                DMA2_Channel1_IRQHandler
+                0x08010a88                I2C1_EV_IRQHandler
+                0x08010a88                DMA1_Channel6_IRQHandler
+                0x08010a88                UART4_IRQHandler
+                0x08010a88                DMA2_Channel4_IRQHandler
+                0x08010a88                TIM3_IRQHandler
+                0x08010a88                RCC_IRQHandler
+                0x08010a88                Default_Handler
+                0x08010a88                RTC_TAMP_LSECSS_IRQHandler
+                0x08010a88                FMAC_IRQHandler
+                0x08010a88                EXTI15_10_IRQHandler
+                0x08010a88                UCPD1_IRQHandler
+                0x08010a88                I2C3_EV_IRQHandler
+                0x08010a88                EXTI9_5_IRQHandler
+                0x08010a88                RTC_WKUP_IRQHandler
+                0x08010a88                PVD_PVM_IRQHandler
+                0x08010a88                SPI2_IRQHandler
+                0x08010a88                DMA2_Channel5_IRQHandler
+                0x08010a88                CRS_IRQHandler
+                0x08010a88                DMA1_Channel5_IRQHandler
+                0x08010a88                USB_LP_IRQHandler
+                0x08010a88                EXTI4_IRQHandler
+                0x08010a88                RNG_IRQHandler
+                0x08010a88                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08010a88                DMA1_Channel3_IRQHandler
+                0x08010a88                WWDG_IRQHandler
+                0x08010a88                LPUART1_IRQHandler
+                0x08010a88                DMA2_Channel6_IRQHandler
+                0x08010a88                TIM2_IRQHandler
+                0x08010a88                COMP1_2_3_IRQHandler
+                0x08010a88                EXTI1_IRQHandler
+                0x08010a88                USART2_IRQHandler
+                0x08010a88                I2C2_ER_IRQHandler
+                0x08010a88                DMA1_Channel2_IRQHandler
+                0x08010a88                TIM8_BRK_IRQHandler
+                0x08010a88                FLASH_IRQHandler
+                0x08010a88                USART1_IRQHandler
+                0x08010a88                SPI3_IRQHandler
+                0x08010a88                I2C1_ER_IRQHandler
+                0x08010a88                LPTIM1_IRQHandler
+                0x08010a88                DMAMUX_OVR_IRQHandler
+                0x08010a88                USBWakeUp_IRQHandler
+                0x08010a88                SAI1_IRQHandler
+                0x08010a88                DMA2_Channel3_IRQHandler
+                0x08010a88                COMP4_IRQHandler
+                0x08010a88                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08010a8a        0x2 
+ .text.CanFilterInit
+                0x08010a8c       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
  .text.GetFDcanData
-                0x08010ab4       0x70 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+                0x08010acc       0x70 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+ .text.CanInit  0x08010b3c       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+                0x08010b3c                CanInit
  .text.CanSendMsg
-                0x08010b24       0x4c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
-                0x08010b24                CanSendMsg
+                0x08010b5c       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+                0x08010b5c                CanSendMsg
+ .text.SendHandState
+                0x08010ba4       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+                0x08010ba4                SendHandState
  .text.HAL_FDCAN_RxFifo0Callback
-                0x08010b70       0x64 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
-                0x08010b70                HAL_FDCAN_RxFifo0Callback
+                0x08010be4       0x64 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+                0x08010be4                HAL_FDCAN_RxFifo0Callback
  .text.ReadFlashWord
-                0x08010bd4        0x4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+                0x08010c48        0x4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
  .text.ReadFlashSpecifyLen
-                0x08010bd8       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
-                0x08010bd8                ReadFlashSpecifyLen
+                0x08010c4c       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+                0x08010c4c                ReadFlashSpecifyLen
  .text.WriteFlashData
-                0x08010bf8       0x90 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
-                0x08010bf8                WriteFlashData
+                0x08010c6c       0x9c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+                0x08010c6c                WriteFlashData
  .text.WriteFlashDefault
-                0x08010c88       0xb0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
-                0x08010c88                WriteFlashDefault
+                0x08010d08       0xb0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+                0x08010d08                WriteFlashDefault
  .text.InitFlash
-                0x08010d38       0x68 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
-                0x08010d38                InitFlash
+                0x08010db8       0x68 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+                0x08010db8                InitFlash
  .text.ReadChipId
-                0x08010da0        0xc CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
-                0x08010da0                ReadChipId
+                0x08010e20       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+                0x08010e20                ReadChipId
  .text.UpgradeFlashExamine
-                0x08010dac       0x34 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
-                0x08010dac                UpgradeFlashExamine
- .text.KeyScan  0x08010de0       0xe8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
-                0x08010de0                KeyScan
+                0x08010e30       0x34 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+                0x08010e30                UpgradeFlashExamine
+ .text.KeyScan  0x08010e64       0xe8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
+                0x08010e64                KeyScan
  .text.SoftTimerDec
-                0x08010ec8       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+                0x08010f4c       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
  .text.InitTimer
-                0x08010ee8       0x30 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
-                0x08010ee8                InitTimer
+                0x08010f6c       0x30 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+                0x08010f6c                InitTimer
  .text.HAL_TIM_PeriodElapsedCallback
-                0x08010f18       0x7c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
-                0x08010f18                HAL_TIM_PeriodElapsedCallback
+                0x08010f9c       0x7c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+                0x08010f9c                HAL_TIM_PeriodElapsedCallback
  .text.StartAutoTimer
-                0x08010f94       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
-                0x08010f94                StartAutoTimer
+                0x08011018       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+                0x08011018                StartAutoTimer
  .text.CheckTimer
-                0x08010fc0       0x34 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
-                0x08010fc0                CheckTimer
+                0x08011044       0x34 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+                0x08011044                CheckTimer
  .text.VL6180X_ReadByte
-                0x08010ff4       0x34 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+                0x08011078       0x34 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
  .text.VL6180X_WriteByte
-                0x08011028       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+                0x080110ac       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
  .text.VL6180X_Init
-                0x08011054      0x172 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
-                0x08011054                VL6180X_Init
- .text.VL6180X_Read_Range
-                0x080111c6       0x36 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
-                0x080111c6                VL6180X_Read_Range
+                0x080110d8      0x172 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+                0x080110d8                VL6180X_Init
+ *fill*         0x0801124a        0x2 
  .text.HAL_InitTick
-                0x080111fc       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
-                0x080111fc                HAL_InitTick
+                0x0801124c       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+                0x0801124c                HAL_InitTick
  .text.HAL_Init
-                0x0801124c       0x1e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
-                0x0801124c                HAL_Init
- *fill*         0x0801126a        0x2 
+                0x0801129c       0x1e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+                0x0801129c                HAL_Init
+ *fill*         0x080112ba        0x2 
  .text.HAL_IncTick
-                0x0801126c       0x18 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
-                0x0801126c                HAL_IncTick
+                0x080112bc       0x18 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+                0x080112bc                HAL_IncTick
  .text.HAL_GetTick
-                0x08011284        0xc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
-                0x08011284                HAL_GetTick
+                0x080112d4        0xc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+                0x080112d4                HAL_GetTick
  .text.HAL_Delay
-                0x08011290       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
-                0x08011290                HAL_Delay
+                0x080112e0       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+                0x080112e0                HAL_Delay
  .text.HAL_ADC_Init
-                0x080112b8      0x234 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x080112b8                HAL_ADC_Init
+                0x08011308      0x234 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x08011308                HAL_ADC_Init
  .text.HAL_ADC_ConvCpltCallback
-                0x080114ec        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x080114ec                HAL_ADC_ConvCpltCallback
+                0x0801153c        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x0801153c                HAL_ADC_ConvCpltCallback
  .text.HAL_ADC_ConvHalfCpltCallback
-                0x080114ee        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x080114ee                HAL_ADC_ConvHalfCpltCallback
+                0x0801153e        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x0801153e                HAL_ADC_ConvHalfCpltCallback
  .text.ADC_DMAHalfConvCplt
-                0x080114f0        0xa CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x080114f0                ADC_DMAHalfConvCplt
+                0x08011540        0xa CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x08011540                ADC_DMAHalfConvCplt
  .text.HAL_ADC_ErrorCallback
-                0x080114fa        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x080114fa                HAL_ADC_ErrorCallback
+                0x0801154a        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x0801154a                HAL_ADC_ErrorCallback
  .text.ADC_DMAConvCplt
-                0x080114fc       0x88 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x080114fc                ADC_DMAConvCplt
+                0x0801154c       0x88 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x0801154c                ADC_DMAConvCplt
  .text.ADC_DMAError
-                0x08011584       0x1a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x08011584                ADC_DMAError
- *fill*         0x0801159e        0x2 
+                0x080115d4       0x1a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x080115d4                ADC_DMAError
+ *fill*         0x080115ee        0x2 
  .text.HAL_ADC_ConfigChannel
-                0x080115a0      0x4e4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x080115a0                HAL_ADC_ConfigChannel
+                0x080115f0      0x4e4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x080115f0                HAL_ADC_ConfigChannel
  .text.ADC_Enable
-                0x08011a84       0xdc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x08011a84                ADC_Enable
+                0x08011ad4       0xdc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x08011ad4                ADC_Enable
  .text.HAL_ADC_Start_DMA
-                0x08011b60      0x104 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                0x08011b60                HAL_ADC_Start_DMA
+                0x08011bb0      0x104 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x08011bb0                HAL_ADC_Start_DMA
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08011c64       0x24 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
-                0x08011c64                HAL_NVIC_SetPriorityGrouping
+                0x08011cb4       0x24 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+                0x08011cb4                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08011c88       0x70 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
-                0x08011c88                HAL_NVIC_SetPriority
+                0x08011cd8       0x70 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+                0x08011cd8                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08011cf8       0x1c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
-                0x08011cf8                HAL_NVIC_EnableIRQ
+                0x08011d48       0x1c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+                0x08011d48                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08011d14       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
-                0x08011d14                HAL_SYSTICK_Config
+                0x08011d64       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+                0x08011d64                HAL_SYSTICK_Config
  .text.DMA_SetConfig
-                0x08011d3c       0x4e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
- *fill*         0x08011d8a        0x2 
+                0x08011d8c       0x4e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+ *fill*         0x08011dda        0x2 
  .text.DMA_CalcDMAMUXChannelBaseAndMask
-                0x08011d8c       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+                0x08011ddc       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
  .text.DMA_CalcDMAMUXRequestGenBaseAndMask
-                0x08011dd4       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+                0x08011e24       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
  .text.HAL_DMA_Init
-                0x08011dfc       0xd8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
-                0x08011dfc                HAL_DMA_Init
+                0x08011e4c       0xd8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+                0x08011e4c                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x08011ed4       0x94 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
-                0x08011ed4                HAL_DMA_Start_IT
+                0x08011f24       0x94 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+                0x08011f24                HAL_DMA_Start_IT
  .text.HAL_DMA_IRQHandler
-                0x08011f68       0xc4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
-                0x08011f68                HAL_DMA_IRQHandler
+                0x08011fb8       0xc4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+                0x08011fb8                HAL_DMA_IRQHandler
  .text.FDCAN_CalcultateRamBlockAddresses
-                0x0801202c       0x64 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x0801207c       0x64 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .text.FDCAN_CopyMessageToRAM
-                0x08012090       0x88 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x080120e0       0x88 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .text.HAL_FDCAN_Init
-                0x08012118      0x1d4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x08012118                HAL_FDCAN_Init
+                0x08012168      0x1d4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08012168                HAL_FDCAN_Init
+ .text.HAL_FDCAN_ConfigFilter
+                0x0801233c       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x0801233c                HAL_FDCAN_ConfigFilter
+ .text.HAL_FDCAN_Start
+                0x0801239c       0x2e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x0801239c                HAL_FDCAN_Start
  .text.HAL_FDCAN_AddMessageToTxFifoQ
-                0x080122ec       0x52 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080122ec                HAL_FDCAN_AddMessageToTxFifoQ
- *fill*         0x0801233e        0x2 
+                0x080123ca       0x52 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x080123ca                HAL_FDCAN_AddMessageToTxFifoQ
  .text.HAL_FDCAN_GetRxMessage
-                0x08012340      0x164 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x08012340                HAL_FDCAN_GetRxMessage
+                0x0801241c      0x164 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x0801241c                HAL_FDCAN_GetRxMessage
  .text.HAL_FDCAN_ActivateNotification
-                0x080124a4      0x106 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080124a4                HAL_FDCAN_ActivateNotification
+                0x08012580      0x106 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08012580                HAL_FDCAN_ActivateNotification
  .text.HAL_FDCAN_TxEventFifoCallback
-                0x080125aa        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125aa                HAL_FDCAN_TxEventFifoCallback
+                0x08012686        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08012686                HAL_FDCAN_TxEventFifoCallback
  .text.HAL_FDCAN_RxFifo1Callback
-                0x080125ac        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125ac                HAL_FDCAN_RxFifo1Callback
+                0x08012688        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08012688                HAL_FDCAN_RxFifo1Callback
  .text.HAL_FDCAN_TxFifoEmptyCallback
-                0x080125ae        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125ae                HAL_FDCAN_TxFifoEmptyCallback
+                0x0801268a        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x0801268a                HAL_FDCAN_TxFifoEmptyCallback
  .text.HAL_FDCAN_TxBufferCompleteCallback
-                0x080125b0        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125b0                HAL_FDCAN_TxBufferCompleteCallback
+                0x0801268c        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x0801268c                HAL_FDCAN_TxBufferCompleteCallback
  .text.HAL_FDCAN_TxBufferAbortCallback
-                0x080125b2        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125b2                HAL_FDCAN_TxBufferAbortCallback
+                0x0801268e        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x0801268e                HAL_FDCAN_TxBufferAbortCallback
  .text.HAL_FDCAN_TimestampWraparoundCallback
-                0x080125b4        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125b4                HAL_FDCAN_TimestampWraparoundCallback
+                0x08012690        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08012690                HAL_FDCAN_TimestampWraparoundCallback
  .text.HAL_FDCAN_TimeoutOccurredCallback
-                0x080125b6        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125b6                HAL_FDCAN_TimeoutOccurredCallback
+                0x08012692        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08012692                HAL_FDCAN_TimeoutOccurredCallback
  .text.HAL_FDCAN_HighPriorityMessageCallback
-                0x080125b8        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125b8                HAL_FDCAN_HighPriorityMessageCallback
+                0x08012694        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08012694                HAL_FDCAN_HighPriorityMessageCallback
  .text.HAL_FDCAN_ErrorCallback
-                0x080125ba        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125ba                HAL_FDCAN_ErrorCallback
+                0x08012696        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08012696                HAL_FDCAN_ErrorCallback
  .text.HAL_FDCAN_ErrorStatusCallback
-                0x080125bc        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125bc                HAL_FDCAN_ErrorStatusCallback
+                0x08012698        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08012698                HAL_FDCAN_ErrorStatusCallback
  .text.HAL_FDCAN_IRQHandler
-                0x080125be      0x188 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                0x080125be                HAL_FDCAN_IRQHandler
- *fill*         0x08012746        0x2 
+                0x0801269a      0x188 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x0801269a                HAL_FDCAN_IRQHandler
+ *fill*         0x08012822        0x2 
  .text.FLASH_Program_DoubleWord
-                0x08012748       0x1c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+                0x08012824       0x1c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
  .text.FLASH_Program_Fast
-                0x08012764       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+                0x08012840       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
  .text.HAL_FLASH_Unlock
-                0x08012790       0x30 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
-                0x08012790                HAL_FLASH_Unlock
+                0x0801286c       0x30 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+                0x0801286c                HAL_FLASH_Unlock
  .text.HAL_FLASH_Lock
-                0x080127c0       0x1c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
-                0x080127c0                HAL_FLASH_Lock
+                0x0801289c       0x1c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+                0x0801289c                HAL_FLASH_Lock
  .text.FLASH_WaitForLastOperation
-                0x080127dc       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
-                0x080127dc                FLASH_WaitForLastOperation
+                0x080128b8       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+                0x080128b8                FLASH_WaitForLastOperation
  .text.HAL_FLASH_Program
-                0x0801283c       0xb0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
-                0x0801283c                HAL_FLASH_Program
+                0x08012918       0xb0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+                0x08012918                HAL_FLASH_Program
  .text.FLASH_MassErase
-                0x080128ec       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+                0x080129c8       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
  .text.FLASH_PageErase
-                0x0801290c       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
-                0x0801290c                FLASH_PageErase
+                0x080129e8       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+                0x080129e8                FLASH_PageErase
  .text.FLASH_FlushCaches
-                0x08012934       0x64 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
-                0x08012934                FLASH_FlushCaches
+                0x08012a10       0x64 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+                0x08012a10                FLASH_FlushCaches
  .text.HAL_FLASHEx_Erase
-                0x08012998       0xec CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
-                0x08012998                HAL_FLASHEx_Erase
+                0x08012a74       0xec CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+                0x08012a74                HAL_FLASHEx_Erase
  .text.HAL_GPIO_Init
-                0x08012a84      0x1dc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
-                0x08012a84                HAL_GPIO_Init
+                0x08012b60      0x1dc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+                0x08012b60                HAL_GPIO_Init
  .text.HAL_GPIO_ReadPin
-                0x08012c60        0xe CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
-                0x08012c60                HAL_GPIO_ReadPin
+                0x08012d3c        0xe CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+                0x08012d3c                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x08012c6e        0xa CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
-                0x08012c6e                HAL_GPIO_WritePin
+                0x08012d4a        0xa CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+                0x08012d4a                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x08012c78       0x12 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
-                0x08012c78                HAL_GPIO_TogglePin
+                0x08012d54       0x12 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+                0x08012d54                HAL_GPIO_TogglePin
  .text.I2C_Flush_TXDR
-                0x08012c8a       0x22 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x08012d66       0x22 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
  .text.I2C_TransferConfig
-                0x08012cac       0x3a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x08012d88       0x3a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
  .text.I2C_IsErrorOccurred
-                0x08012ce6      0x114 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x08012dc2      0x114 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
  .text.I2C_WaitOnTXISFlagUntilTimeout
-                0x08012dfa       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x08012ed6       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
  .text.I2C_WaitOnFlagUntilTimeout
-                0x08012e5a       0x7c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
- *fill*         0x08012ed6        0x2 
+                0x08012f36       0x7c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+ *fill*         0x08012fb2        0x2 
  .text.I2C_RequestMemoryWrite
-                0x08012ed8       0x7c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x08012fb4       0x7c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
  .text.I2C_RequestMemoryRead
-                0x08012f54       0x78 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x08013030       0x78 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
  .text.I2C_WaitOnSTOPFlagUntilTimeout
-                0x08012fcc       0x5e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x080130a8       0x5e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
  .text.HAL_I2C_Init
-                0x0801302a       0xc8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
-                0x0801302a                HAL_I2C_Init
+                0x08013106       0xc8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x08013106                HAL_I2C_Init
  .text.HAL_I2C_Mem_Write
-                0x080130f2      0x1a8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
-                0x080130f2                HAL_I2C_Mem_Write
- *fill*         0x0801329a        0x2 
+                0x080131ce      0x1a8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x080131ce                HAL_I2C_Mem_Write
+ *fill*         0x08013376        0x2 
  .text.HAL_I2C_Mem_Read
-                0x0801329c      0x1b0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
-                0x0801329c                HAL_I2C_Mem_Read
+                0x08013378      0x1b0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x08013378                HAL_I2C_Mem_Read
  .text.HAL_I2CEx_ConfigAnalogFilter
-                0x0801344c       0x5c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
-                0x0801344c                HAL_I2CEx_ConfigAnalogFilter
+                0x08013528       0x5c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+                0x08013528                HAL_I2CEx_ConfigAnalogFilter
  .text.HAL_I2CEx_ConfigDigitalFilter
-                0x080134a8       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
-                0x080134a8                HAL_I2CEx_ConfigDigitalFilter
+                0x08013584       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+                0x08013584                HAL_I2CEx_ConfigDigitalFilter
  .text.HAL_IWDG_Init
-                0x08013500       0x68 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
-                0x08013500                HAL_IWDG_Init
+                0x080135dc       0x68 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+                0x080135dc                HAL_IWDG_Init
  .text.HAL_IWDG_Refresh
-                0x08013568        0xc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
-                0x08013568                HAL_IWDG_Refresh
+                0x08013644        0xc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+                0x08013644                HAL_IWDG_Refresh
  .text.HAL_PWREx_ControlVoltageScaling
-                0x08013574      0x10c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
-                0x08013574                HAL_PWREx_ControlVoltageScaling
+                0x08013650      0x10c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+                0x08013650                HAL_PWREx_ControlVoltageScaling
  .text.HAL_PWREx_DisableUCPDDeadBattery
-                0x08013680       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
-                0x08013680                HAL_PWREx_DisableUCPDDeadBattery
+                0x0801375c       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+                0x0801375c                HAL_PWREx_DisableUCPDDeadBattery
  .text.RCC_GetSysClockFreqFromPLLSource
-                0x08013690       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+                0x0801376c       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
  .text.HAL_RCC_OscConfig
-                0x080136e8      0x4e4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
-                0x080136e8                HAL_RCC_OscConfig
+                0x080137c4      0x4e4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+                0x080137c4                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08013bcc       0x88 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
-                0x08013bcc                HAL_RCC_GetSysClockFreq
+                0x08013ca8       0x88 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+                0x08013ca8                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08013c54      0x1f8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
-                0x08013c54                HAL_RCC_ClockConfig
+                0x08013d30      0x1f8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+                0x08013d30                HAL_RCC_ClockConfig
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x08013e4c      0x2e4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
-                0x08013e4c                HAL_RCCEx_PeriphCLKConfig
+                0x08013f28      0x2e4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+                0x08013f28                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_TIM_Base_Start_IT
-                0x08014130       0x84 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
-                0x08014130                HAL_TIM_Base_Start_IT
+                0x0801420c       0x84 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                0x0801420c                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x080141b4        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
-                0x080141b4                HAL_TIM_OC_DelayElapsedCallback
+                0x08014290        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                0x08014290                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x080141b6        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
-                0x080141b6                HAL_TIM_IC_CaptureCallback
+                0x08014292        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                0x08014292                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x080141b8        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
-                0x080141b8                HAL_TIM_PWM_PulseFinishedCallback
+                0x08014294        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                0x08014294                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x080141ba        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
-                0x080141ba                HAL_TIM_TriggerCallback
+                0x08014296        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                0x08014296                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x080141bc      0x1ea CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
-                0x080141bc                HAL_TIM_IRQHandler
- *fill*         0x080143a6        0x2 
+                0x08014298      0x1ea CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                0x08014298                HAL_TIM_IRQHandler
+ *fill*         0x08014482        0x2 
  .text.TIM_Base_SetConfig
-                0x080143a8       0xc8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
-                0x080143a8                TIM_Base_SetConfig
+                0x08014484       0xc8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                0x08014484                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x08014470       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
-                0x08014470                HAL_TIM_Base_Init
+                0x0801454c       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                0x0801454c                HAL_TIM_Base_Init
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x080144d0       0x94 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
-                0x080144d0                HAL_TIMEx_MasterConfigSynchronization
+                0x080145ac       0x94 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                0x080145ac                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutCallback
-                0x08014564        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
-                0x08014564                HAL_TIMEx_CommutCallback
+                0x08014640        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                0x08014640                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x08014566        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
-                0x08014566                HAL_TIMEx_BreakCallback
+                0x08014642        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                0x08014642                HAL_TIMEx_BreakCallback
  .text.HAL_TIMEx_Break2Callback
-                0x08014568        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
-                0x08014568                HAL_TIMEx_Break2Callback
+                0x08014644        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                0x08014644                HAL_TIMEx_Break2Callback
  .text.HAL_TIMEx_EncoderIndexCallback
-                0x0801456a        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
-                0x0801456a                HAL_TIMEx_EncoderIndexCallback
+                0x08014646        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                0x08014646                HAL_TIMEx_EncoderIndexCallback
  .text.HAL_TIMEx_DirectionChangeCallback
-                0x0801456c        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
-                0x0801456c                HAL_TIMEx_DirectionChangeCallback
+                0x08014648        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                0x08014648                HAL_TIMEx_DirectionChangeCallback
  .text.HAL_TIMEx_IndexErrorCallback
-                0x0801456e        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
-                0x0801456e                HAL_TIMEx_IndexErrorCallback
+                0x0801464a        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                0x0801464a                HAL_TIMEx_IndexErrorCallback
  .text.HAL_TIMEx_TransitionErrorCallback
-                0x08014570        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
-                0x08014570                HAL_TIMEx_TransitionErrorCallback
- *fill*         0x08014572        0x2 
+                0x0801464c        0x2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                0x0801464c                HAL_TIMEx_TransitionErrorCallback
+ *fill*         0x0801464e        0x2 
  .text.__libc_init_array
-                0x08014574       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
-                0x08014574                __libc_init_array
- .text.memset   0x080145bc       0xa4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
-                0x080145bc                memset
+                0x08014650       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x08014650                __libc_init_array
+ .text.memset   0x08014698       0xa4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x08014698                memset
  .text.startup.register_fini
-                0x08014660       0x14 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
- .text.atexit   0x08014674        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
-                0x08014674                atexit
+                0x0801473c       0x14 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08014750        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x08014750                atexit
  .text.__libc_fini_array
-                0x08014680       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
-                0x08014680                __libc_fini_array
+                0x0801475c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x0801475c                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x080146ac        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
-                0x080146ac                __retarget_lock_acquire_recursive
+                0x08014788        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08014788                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x080146b0        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
-                0x080146b0                __retarget_lock_release_recursive
+                0x0801478c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x0801478c                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x080146b4       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
-                0x080146b4                __register_exitproc
+                0x08014790       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x08014790                __register_exitproc
  *(.glue_7)
- .glue_7        0x08014740        0x0 linker stubs
+ .glue_7        0x0801481c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08014740        0x0 linker stubs
+ .glue_7t       0x0801481c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08014740        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x0801481c        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08014740        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08014740                _init
- .init          0x08014744        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x0801481c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x0801481c                _init
+ .init          0x08014820        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x0801474c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x0801474c                _fini
- .fini          0x08014750        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
-                0x08014758                . = ALIGN (0x4)
-                0x08014758                _etext = .
+ .fini          0x08014828        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x08014828                _fini
+ .fini          0x0801482c        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x08014834                . = ALIGN (0x4)
+                0x08014834                _etext = .
 
-.vfp11_veneer   0x08014758        0x0
- .vfp11_veneer  0x08014758        0x0 linker stubs
+.vfp11_veneer   0x08014834        0x0
+ .vfp11_veneer  0x08014834        0x0 linker stubs
 
-.v4_bx          0x08014758        0x0
- .v4_bx         0x08014758        0x0 linker stubs
+.v4_bx          0x08014834        0x0
+ .v4_bx         0x08014834        0x0 linker stubs
 
-.iplt           0x08014758        0x0
- .iplt          0x08014758        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x08014834        0x0
+ .iplt          0x08014834        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08014758       0x24
-                0x08014758                . = ALIGN (0x4)
+.rodata         0x08014834       0x24
+                0x08014834                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08014758       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
-                0x08014758                AHBPrescTable
+                0x08014834       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
+                0x08014834                AHBPrescTable
  .rodata.DLCtoBytes
-                0x08014768       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x08014844       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .rodata._global_impure_ptr
-                0x08014778        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
-                0x08014778                _global_impure_ptr
-                0x0801477c                . = ALIGN (0x4)
+                0x08014854        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x08014854                _global_impure_ptr
+                0x08014858                . = ALIGN (0x4)
 
-.rel.dyn        0x0801477c        0x0
- .rel.iplt      0x0801477c        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x08014858        0x0
+ .rel.iplt      0x08014858        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ARM.extab      0x0801477c        0x0
-                0x0801477c                . = ALIGN (0x4)
+.ARM.extab      0x08014858        0x0
+                0x08014858                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0801477c                . = ALIGN (0x4)
+                0x08014858                . = ALIGN (0x4)
 
-.ARM            0x0801477c        0x0
-                0x0801477c                . = ALIGN (0x4)
-                0x0801477c                __exidx_start = .
+.ARM            0x08014858        0x0
+                0x08014858                . = ALIGN (0x4)
+                0x08014858                __exidx_start = .
  *(.ARM.exidx*)
-                0x0801477c                __exidx_end = .
-                0x0801477c                . = ALIGN (0x4)
+                0x08014858                __exidx_end = .
+                0x08014858                . = ALIGN (0x4)
 
-.preinit_array  0x0801477c        0x0
-                0x0801477c                . = ALIGN (0x4)
-                0x0801477c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08014858        0x0
+                0x08014858                . = ALIGN (0x4)
+                0x08014858                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0801477c                PROVIDE (__preinit_array_end = .)
-                0x0801477c                . = ALIGN (0x4)
+                0x08014858                PROVIDE (__preinit_array_end = .)
+                0x08014858                . = ALIGN (0x4)
 
-.init_array     0x0801477c        0x8
-                0x0801477c                . = ALIGN (0x4)
-                0x0801477c                PROVIDE (__init_array_start = .)
+.init_array     0x08014858        0x8
+                0x08014858                . = ALIGN (0x4)
+                0x08014858                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x0801477c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+                0x08014858        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08014780        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08014784                PROVIDE (__init_array_end = .)
-                0x08014784                . = ALIGN (0x4)
+ .init_array    0x0801485c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08014860                PROVIDE (__init_array_end = .)
+                0x08014860                . = ALIGN (0x4)
 
-.fini_array     0x08014784        0x4
-                0x08014784                . = ALIGN (0x4)
-                0x08014784                PROVIDE (__fini_array_start = .)
+.fini_array     0x08014860        0x4
+                0x08014860                . = ALIGN (0x4)
+                0x08014860                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08014784        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08014788                PROVIDE (__fini_array_end = .)
-                0x08014788                . = ALIGN (0x4)
-                0x08014788                _sidata = LOADADDR (.data)
+ .fini_array    0x08014860        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08014864                PROVIDE (__fini_array_end = .)
+                0x08014864                . = ALIGN (0x4)
+                0x08014864                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x49c load address 0x08014788
+.data           0x20000000      0x49c load address 0x08014864
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -2139,20 +2145,20 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x2000004c                pFlash
  *fill*         0x2000006c        0x4 
  .data.impure_data
-                0x20000070      0x428 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+                0x20000070      0x428 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .data.__atexit_recursive_mutex
-                0x20000498        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+                0x20000498        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
                 0x20000498                __atexit_recursive_mutex
  *(.RamFunc)
  *(.RamFunc*)
                 0x2000049c                . = ALIGN (0x4)
                 0x2000049c                _edata = .
 
-.igot.plt       0x2000049c        0x0 load address 0x08014c24
+.igot.plt       0x2000049c        0x0 load address 0x08014d00
  .igot.plt      0x2000049c        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
                 0x2000049c                . = ALIGN (0x4)
 
-.bss            0x2000049c      0x2f4 load address 0x08014c24
+.bss            0x2000049c      0x2f4 load address 0x08014d00
                 0x2000049c                _sbss = .
                 0x2000049c                __bss_start__ = _sbss
  *(.bss)
@@ -2213,7 +2219,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .bss.uwTick    0x20000788        0x4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
                 0x20000788                uwTick
  .bss.__lock___atexit_recursive_mutex
-                0x2000078c        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x2000078c        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
                 0x2000078c                __lock___atexit_recursive_mutex
  *(COMMON)
                 0x20000790                . = ALIGN (0x4)
@@ -2222,7 +2228,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x20000790                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000790      0x600 load address 0x08014c24
+                0x20000790      0x600 load address 0x08014d00
                 0x20000790                . = ALIGN (0x8)
                 [!provide]                PROVIDE (end = .)
                 0x20000790                PROVIDE (_end = .)
@@ -2311,21 +2317,21 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .ARM.attributes
                 0x000005ff       0x2e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
  .ARM.attributes
-                0x0000062d       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+                0x0000062d       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000065b       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+                0x0000065b       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x00000689       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+                0x00000689       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
  .ARM.attributes
-                0x000006b7       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+                0x000006b7       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x000006e5       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+                0x000006e5       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
  .ARM.attributes
-                0x00000713       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+                0x00000713       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
  .ARM.attributes
-                0x00000741       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x00000741       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .ARM.attributes
-                0x0000076f       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+                0x0000076f       0x2e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
  .ARM.attributes
                 0x0000079d       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
 OUTPUT(Robot_Hand_v2.0.elf elf32-littlearm)
@@ -2334,106 +2340,106 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x21dce
+.debug_info     0x00000000    0x21e43
  .debug_info    0x00000000      0xffb CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
  .debug_info    0x00000ffb      0x55e CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/dma.c.obj
  .debug_info    0x00001559      0xe59 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/fdcan.c.obj
- .debug_info    0x000023b2      0x57a CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x0000292c      0xe09 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
- .debug_info    0x00003735      0x1f5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/iwdg.c.obj
- .debug_info    0x0000392a     0x16c8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00004ff2      0x345 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
- .debug_info    0x00005337      0xf45 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
- .debug_info    0x0000627c      0x3f9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
- .debug_info    0x00006675      0xe08 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
- .debug_info    0x0000747d       0x22 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
- .debug_info    0x0000749f      0xbcb CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
- .debug_info    0x0000806a      0x62f CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
- .debug_info    0x00008699      0x3e5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
- .debug_info    0x00008a7e      0xc91 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
- .debug_info    0x0000970f      0xd47 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
- .debug_info    0x0000a456      0xbb8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
- .debug_info    0x0000b00e     0x3749 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
- .debug_info    0x0000e757     0x108f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
- .debug_info    0x0000f7e6      0xa56 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
- .debug_info    0x0001023c     0x1d4f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
- .debug_info    0x00011f8b      0x8e8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
- .debug_info    0x00012873      0xbe9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
- .debug_info    0x0001345c      0x865 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
- .debug_info    0x00013cc1     0x45a4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
- .debug_info    0x00018265      0xb8c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
- .debug_info    0x00018df1      0x22a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
- .debug_info    0x0001901b      0xa07 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
- .debug_info    0x00019a22      0xe96 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
- .debug_info    0x0001a8b8      0xecf CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
- .debug_info    0x0001b787     0x410f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
- .debug_info    0x0001f896     0x2538 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+ .debug_info    0x000023b2      0x57b CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/gpio.c.obj
+ .debug_info    0x0000292d      0xe09 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
+ .debug_info    0x00003736      0x1f5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/iwdg.c.obj
+ .debug_info    0x0000392b     0x162d CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00004f58      0x345 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
+ .debug_info    0x0000529d      0xf45 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+ .debug_info    0x000061e2      0x3f9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
+ .debug_info    0x000065db      0xe08 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
+ .debug_info    0x000073e3       0x22 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
+ .debug_info    0x00007405      0xc76 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+ .debug_info    0x0000807b      0x693 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+ .debug_info    0x0000870e      0x3e5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
+ .debug_info    0x00008af3      0xc91 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+ .debug_info    0x00009784      0xd47 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+ .debug_info    0x0000a4cb      0xbb8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+ .debug_info    0x0000b083     0x3749 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+ .debug_info    0x0000e7cc     0x108f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+ .debug_info    0x0000f85b      0xa56 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+ .debug_info    0x000102b1     0x1d4f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+ .debug_info    0x00012000      0x8e8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+ .debug_info    0x000128e8      0xbe9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+ .debug_info    0x000134d1      0x865 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+ .debug_info    0x00013d36     0x45a4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+ .debug_info    0x000182da      0xb8c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+ .debug_info    0x00018e66      0x22a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+ .debug_info    0x00019090      0xa07 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+ .debug_info    0x00019a97      0xe96 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+ .debug_info    0x0001a92d      0xecf CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+ .debug_info    0x0001b7fc     0x410f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+ .debug_info    0x0001f90b     0x2538 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
 
-.debug_abbrev   0x00000000     0x4111
+.debug_abbrev   0x00000000     0x41a7
  .debug_abbrev  0x00000000      0x1ec CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
  .debug_abbrev  0x000001ec      0x114 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/dma.c.obj
  .debug_abbrev  0x00000300      0x1c5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/fdcan.c.obj
  .debug_abbrev  0x000004c5      0x14e CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/gpio.c.obj
  .debug_abbrev  0x00000613      0x1ef CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
  .debug_abbrev  0x00000802      0x13a CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/iwdg.c.obj
- .debug_abbrev  0x0000093c      0x288 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000bc4       0xd6 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
- .debug_abbrev  0x00000c9a      0x20c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
- .debug_abbrev  0x00000ea6      0x119 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
- .debug_abbrev  0x00000fbf      0x20f CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
- .debug_abbrev  0x000011ce       0x12 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
- .debug_abbrev  0x000011e0      0x280 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
- .debug_abbrev  0x00001460      0x1b7 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
- .debug_abbrev  0x00001617      0x17e CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
- .debug_abbrev  0x00001795      0x2a9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
- .debug_abbrev  0x00001a3e      0x1e9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
- .debug_abbrev  0x00001c27      0x23e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
- .debug_abbrev  0x00001e65      0x2cb CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
- .debug_abbrev  0x00002130      0x361 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
- .debug_abbrev  0x00002491      0x216 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
- .debug_abbrev  0x000026a7      0x1d8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
- .debug_abbrev  0x0000287f      0x301 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
- .debug_abbrev  0x00002b80      0x271 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
- .debug_abbrev  0x00002df1      0x1e6 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
- .debug_abbrev  0x00002fd7      0x259 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
- .debug_abbrev  0x00003230      0x1b3 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
- .debug_abbrev  0x000033e3      0x15b CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
- .debug_abbrev  0x0000353e      0x245 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00003783      0x26f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
- .debug_abbrev  0x000039f2      0x243 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00003c35      0x263 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
- .debug_abbrev  0x00003e98      0x279 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x0000093c      0x2a4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000be0       0xd6 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000cb6      0x20c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+ .debug_abbrev  0x00000ec2      0x119 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
+ .debug_abbrev  0x00000fdb      0x20f CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
+ .debug_abbrev  0x000011ea       0x12 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
+ .debug_abbrev  0x000011fc      0x2a3 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+ .debug_abbrev  0x0000149f      0x20e CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+ .debug_abbrev  0x000016ad      0x17e CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
+ .debug_abbrev  0x0000182b      0x2a9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+ .debug_abbrev  0x00001ad4      0x1e9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+ .debug_abbrev  0x00001cbd      0x23e CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+ .debug_abbrev  0x00001efb      0x2cb CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+ .debug_abbrev  0x000021c6      0x361 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+ .debug_abbrev  0x00002527      0x216 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+ .debug_abbrev  0x0000273d      0x1d8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+ .debug_abbrev  0x00002915      0x301 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+ .debug_abbrev  0x00002c16      0x271 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+ .debug_abbrev  0x00002e87      0x1e6 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+ .debug_abbrev  0x0000306d      0x259 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+ .debug_abbrev  0x000032c6      0x1b3 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+ .debug_abbrev  0x00003479      0x15b CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+ .debug_abbrev  0x000035d4      0x245 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x00003819      0x26f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+ .debug_abbrev  0x00003a88      0x243 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x00003ccb      0x263 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+ .debug_abbrev  0x00003f2e      0x279 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
 
-.debug_loc      0x00000000    0x16b75
+.debug_loc      0x00000000    0x16bb7
  .debug_loc     0x00000000       0x54 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
  .debug_loc     0x00000054       0x9e CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/fdcan.c.obj
  .debug_loc     0x000000f2       0x9e CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
- .debug_loc     0x00000190       0x62 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
- .debug_loc     0x000001f2       0x9d CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
- .debug_loc     0x0000028f       0x67 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
- .debug_loc     0x000002f6      0x2b7 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
- .debug_loc     0x000005ad      0x340 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
- .debug_loc     0x000008ed       0x7d CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
- .debug_loc     0x0000096a      0x1a4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
- .debug_loc     0x00000b0e       0xc0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
- .debug_loc     0x00000bce      0x1ef CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
- .debug_loc     0x00000dbd     0x2812 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
- .debug_loc     0x000035cf      0x736 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
- .debug_loc     0x00003d05      0x8a0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
- .debug_loc     0x000045a5     0x165f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
- .debug_loc     0x00005c04      0x5fb CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
- .debug_loc     0x000061ff      0x78d CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
- .debug_loc     0x0000698c      0x3b3 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
- .debug_loc     0x00006d3f     0x51ea CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
- .debug_loc     0x0000bf29      0x202 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
- .debug_loc     0x0000c12b       0x86 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
- .debug_loc     0x0000c1b1      0xa06 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
- .debug_loc     0x0000cbb7      0x84d CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
- .debug_loc     0x0000d404     0x11a5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
- .debug_loc     0x0000e5a9     0x57f1 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
- .debug_loc     0x00013d9a     0x2ddb CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+ .debug_loc     0x00000190       0x4d CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+ .debug_loc     0x000001dd       0x9d CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
+ .debug_loc     0x0000027a       0x67 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
+ .debug_loc     0x000002e1      0x2f7 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+ .debug_loc     0x000005d8      0x357 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+ .debug_loc     0x0000092f       0x7d CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
+ .debug_loc     0x000009ac      0x1a4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+ .debug_loc     0x00000b50       0xc0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+ .debug_loc     0x00000c10      0x1ef CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+ .debug_loc     0x00000dff     0x2812 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+ .debug_loc     0x00003611      0x736 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+ .debug_loc     0x00003d47      0x8a0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+ .debug_loc     0x000045e7     0x165f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+ .debug_loc     0x00005c46      0x5fb CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+ .debug_loc     0x00006241      0x78d CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+ .debug_loc     0x000069ce      0x3b3 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+ .debug_loc     0x00006d81     0x51ea CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+ .debug_loc     0x0000bf6b      0x202 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+ .debug_loc     0x0000c16d       0x86 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+ .debug_loc     0x0000c1f3      0xa06 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+ .debug_loc     0x0000cbf9      0x84d CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+ .debug_loc     0x0000d446     0x11a5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+ .debug_loc     0x0000e5eb     0x57f1 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+ .debug_loc     0x00013ddc     0x2ddb CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
 
-.debug_aranges  0x00000000     0x1698
+.debug_aranges  0x00000000     0x16a0
  .debug_aranges
                 0x00000000       0x30 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
  .debug_aranges
@@ -2459,49 +2465,49 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .debug_aranges
                 0x00000228       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
  .debug_aranges
-                0x00000250       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+                0x00000250       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
  .debug_aranges
-                0x00000290       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+                0x00000298       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
  .debug_aranges
-                0x000002e0       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
+                0x000002e8       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
  .debug_aranges
-                0x00000300       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+                0x00000308       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
  .debug_aranges
-                0x00000358       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+                0x00000360       0x40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
  .debug_aranges
-                0x00000398      0x148 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+                0x000003a0      0x148 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
  .debug_aranges
-                0x000004e0      0x108 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                0x000004e8      0x108 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
  .debug_aranges
-                0x000005e8       0xb8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+                0x000005f0       0xb8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
  .debug_aranges
-                0x000006a0       0x90 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+                0x000006a8       0x90 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
  .debug_aranges
-                0x00000730      0x208 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                0x00000738      0x208 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
  .debug_aranges
-                0x00000938       0x88 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+                0x00000940       0x88 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
  .debug_aranges
-                0x000009c0       0xc8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+                0x000009c8       0xc8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
  .debug_aranges
-                0x00000a88       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+                0x00000a90       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000ae0      0x2a0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                0x00000ae8      0x2a0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
  .debug_aranges
-                0x00000d80       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+                0x00000d88       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
  .debug_aranges
-                0x00000dc8       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+                0x00000dd0       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
  .debug_aranges
-                0x00000df0      0x140 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+                0x00000df8      0x140 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
  .debug_aranges
-                0x00000f30       0x98 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+                0x00000f38       0x98 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000fc8       0xb0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+                0x00000fd0       0xb0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
  .debug_aranges
-                0x00001078      0x3e0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                0x00001080      0x3e0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
  .debug_aranges
-                0x00001458      0x240 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                0x00001460      0x240 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
 
-.debug_ranges   0x00000000     0x16b8
+.debug_ranges   0x00000000     0x16c0
  .debug_ranges  0x00000000       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
  .debug_ranges  0x00000020       0x10 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/dma.c.obj
  .debug_ranges  0x00000030       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/fdcan.c.obj
@@ -2514,130 +2520,130 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .debug_ranges  0x00000158       0x18 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
  .debug_ranges  0x00000170       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
  .debug_ranges  0x00000190       0x20 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
- .debug_ranges  0x000001b0       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
- .debug_ranges  0x000001f8       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
- .debug_ranges  0x00000250       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
- .debug_ranges  0x00000278       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
- .debug_ranges  0x000002c0       0x30 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
- .debug_ranges  0x000002f0      0x138 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
- .debug_ranges  0x00000428      0x230 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
- .debug_ranges  0x00000658      0x108 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
- .debug_ranges  0x00000760       0x80 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
- .debug_ranges  0x000007e0      0x1f8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
- .debug_ranges  0x000009d8       0x78 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
- .debug_ranges  0x00000a50       0xb8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
- .debug_ranges  0x00000b08       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
- .debug_ranges  0x00000b50      0x290 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
- .debug_ranges  0x00000de0       0x38 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
- .debug_ranges  0x00000e18       0x18 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
- .debug_ranges  0x00000e30      0x130 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
- .debug_ranges  0x00000f60       0xa0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
- .debug_ranges  0x00001000       0xb8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
- .debug_ranges  0x000010b8      0x3d0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
- .debug_ranges  0x00001488      0x230 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+ .debug_ranges  0x000001b0       0x50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+ .debug_ranges  0x00000200       0x58 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+ .debug_ranges  0x00000258       0x28 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
+ .debug_ranges  0x00000280       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+ .debug_ranges  0x000002c8       0x30 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+ .debug_ranges  0x000002f8      0x138 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+ .debug_ranges  0x00000430      0x230 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+ .debug_ranges  0x00000660      0x108 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+ .debug_ranges  0x00000768       0x80 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+ .debug_ranges  0x000007e8      0x1f8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+ .debug_ranges  0x000009e0       0x78 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+ .debug_ranges  0x00000a58       0xb8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+ .debug_ranges  0x00000b10       0x48 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+ .debug_ranges  0x00000b58      0x290 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+ .debug_ranges  0x00000de8       0x38 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+ .debug_ranges  0x00000e20       0x18 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+ .debug_ranges  0x00000e38      0x130 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+ .debug_ranges  0x00000f68       0xa0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+ .debug_ranges  0x00001008       0xb8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+ .debug_ranges  0x000010c0      0x3d0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+ .debug_ranges  0x00001490      0x230 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
 
-.debug_line     0x00000000    0x1b355
+.debug_line     0x00000000    0x1b3df
  .debug_line    0x00000000      0x4b1 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
  .debug_line    0x000004b1      0x1f8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/dma.c.obj
  .debug_line    0x000006a9      0x42a CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/fdcan.c.obj
  .debug_line    0x00000ad3      0x28d CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/gpio.c.obj
  .debug_line    0x00000d60      0x421 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
  .debug_line    0x00001181      0x281 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/iwdg.c.obj
- .debug_line    0x00001402      0x6c3 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00001ac5      0x205 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
- .debug_line    0x00001cca      0x406 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
- .debug_line    0x000020d0      0x250 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
- .debug_line    0x00002320      0x353 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
- .debug_line    0x00002673       0xb7 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
- .debug_line    0x0000272a      0x507 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
- .debug_line    0x00002c31      0x578 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
- .debug_line    0x000031a9      0x2ee CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
- .debug_line    0x00003497      0x66e CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
- .debug_line    0x00003b05      0x32f CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
- .debug_line    0x00003e34      0x769 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
- .debug_line    0x0000459d     0x24dc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
- .debug_line    0x00006a79      0x828 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
- .debug_line    0x000072a1      0xcaf CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
- .debug_line    0x00007f50     0x1a39 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
- .debug_line    0x00009989      0x878 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
- .debug_line    0x0000a201      0xbee CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
- .debug_line    0x0000adef      0x6ed CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
- .debug_line    0x0000b4dc     0x5250 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
- .debug_line    0x0001072c      0x524 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
- .debug_line    0x00010c50      0x2e7 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
- .debug_line    0x00010f37      0xb08 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
- .debug_line    0x00011a3f      0xe55 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
- .debug_line    0x00012894     0x10c7 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
- .debug_line    0x0001395b     0x53d8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
- .debug_line    0x00018d33     0x2622 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+ .debug_line    0x00001402      0x692 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00001a94      0x205 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
+ .debug_line    0x00001c99      0x406 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+ .debug_line    0x0000209f      0x250 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
+ .debug_line    0x000022ef      0x353 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
+ .debug_line    0x00002642       0xb7 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
+ .debug_line    0x000026f9      0x541 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+ .debug_line    0x00002c3a      0x5f9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+ .debug_line    0x00003233      0x2ee CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
+ .debug_line    0x00003521      0x66e CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+ .debug_line    0x00003b8f      0x32f CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+ .debug_line    0x00003ebe      0x769 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+ .debug_line    0x00004627     0x24dc CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+ .debug_line    0x00006b03      0x828 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+ .debug_line    0x0000732b      0xcaf CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+ .debug_line    0x00007fda     0x1a39 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+ .debug_line    0x00009a13      0x878 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+ .debug_line    0x0000a28b      0xbee CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+ .debug_line    0x0000ae79      0x6ed CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+ .debug_line    0x0000b566     0x5250 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+ .debug_line    0x000107b6      0x524 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+ .debug_line    0x00010cda      0x2e7 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+ .debug_line    0x00010fc1      0xb08 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+ .debug_line    0x00011ac9      0xe55 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+ .debug_line    0x0001291e     0x10c7 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+ .debug_line    0x000139e5     0x53d8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+ .debug_line    0x00018dbd     0x2622 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
 
-.debug_str      0x00000000     0x7f58
- .debug_str     0x00000000      0xb3d CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
-                                0xc1e (size before relaxing)
- .debug_str     0x00000b3d      0x4c9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/dma.c.obj
-                                0x7d1 (size before relaxing)
- .debug_str     0x00001006      0x380 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/fdcan.c.obj
-                                0xdf2 (size before relaxing)
- .debug_str     0x00001386       0x7c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/gpio.c.obj
-                                0x413 (size before relaxing)
- .debug_str     0x00001402      0x333 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
-                                0xbca (size before relaxing)
- .debug_str     0x00001735       0xa6 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/iwdg.c.obj
-                                0x2a1 (size before relaxing)
- .debug_str     0x000017db      0x6c3 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
-                                0xfc4 (size before relaxing)
- .debug_str     0x00001e9e       0x7b CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
-                                0x383 (size before relaxing)
- .debug_str     0x00001f19      0x188 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
-                                0xcd4 (size before relaxing)
- .debug_str     0x000020a1       0xb5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
-                                0x3c2 (size before relaxing)
- .debug_str     0x00002156      0x112 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
-                                0xef6 (size before relaxing)
- .debug_str     0x00002268       0x64 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
+.debug_str      0x00000000     0x7f69
+ .debug_str     0x00000000      0xb40 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
+                                0xc21 (size before relaxing)
+ .debug_str     0x00000b40      0x4c9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/dma.c.obj
+                                0x7d4 (size before relaxing)
+ .debug_str     0x00001009      0x380 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/fdcan.c.obj
+                                0xdf5 (size before relaxing)
+ .debug_str     0x00001389       0x7c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/gpio.c.obj
+                                0x416 (size before relaxing)
+ .debug_str     0x00001405      0x333 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/i2c.c.obj
+                                0xbcd (size before relaxing)
+ .debug_str     0x00001738       0xa6 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/iwdg.c.obj
+                                0x2a4 (size before relaxing)
+ .debug_str     0x000017de      0x670 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/main.c.obj
+                                0xf62 (size before relaxing)
+ .debug_str     0x00001e4e       0x7b CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
+                                0x386 (size before relaxing)
+ .debug_str     0x00001ec9      0x188 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
+                                0xcd7 (size before relaxing)
+ .debug_str     0x00002051       0xb5 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
+                                0x3c5 (size before relaxing)
+ .debug_str     0x00002106      0x112 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
+                                0xef9 (size before relaxing)
+ .debug_str     0x00002218       0x64 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Startup/startup_stm32g431kbux.s.obj
                                  0xa7 (size before relaxing)
- .debug_str     0x000022cc      0x2b8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
-                                0x8e2 (size before relaxing)
- .debug_str     0x00002584      0x1a2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
-                                0x47e (size before relaxing)
- .debug_str     0x00002726       0xc2 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
-                                0x32b (size before relaxing)
- .debug_str     0x000027e8      0x145 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
-                                0x9b9 (size before relaxing)
- .debug_str     0x0000292d       0xb9 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
-                                0x858 (size before relaxing)
- .debug_str     0x000029e6      0x49c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
-                                0xcb1 (size before relaxing)
- .debug_str     0x00002e82      0xa24 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
-                               0x1338 (size before relaxing)
- .debug_str     0x000038a6      0x483 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
-                                0xc11 (size before relaxing)
- .debug_str     0x00003d29      0x2aa CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
-                                0x7f0 (size before relaxing)
- .debug_str     0x00003fd3      0xa43 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
-                               0x127c (size before relaxing)
- .debug_str     0x00004a16      0x395 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
-                                0x696 (size before relaxing)
- .debug_str     0x00004dab      0x323 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
-                                0x7b4 (size before relaxing)
- .debug_str     0x000050ce      0x129 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
-                                0x58f (size before relaxing)
- .debug_str     0x000051f7      0x8be CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
-                               0x111f (size before relaxing)
- .debug_str     0x00005ab5       0xe6 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
-                                0xa35 (size before relaxing)
- .debug_str     0x00005b9b       0x67 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
-                                0x2df (size before relaxing)
- .debug_str     0x00005c02      0x509 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
-                                0x831 (size before relaxing)
- .debug_str     0x0000610b      0x239 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
-                                0x87e (size before relaxing)
- .debug_str     0x00006344      0x391 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
-                                0xa65 (size before relaxing)
- .debug_str     0x000066d5      0xf49 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
-                               0x18be (size before relaxing)
- .debug_str     0x0000761e      0x93a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
-                               0x1516 (size before relaxing)
+ .debug_str     0x0000227c      0x310 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+                                0x8fe (size before relaxing)
+ .debug_str     0x0000258c      0x1b8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+                                0x497 (size before relaxing)
+ .debug_str     0x00002744       0xb8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
+                                0x32e (size before relaxing)
+ .debug_str     0x000027fc      0x145 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+                                0x9bc (size before relaxing)
+ .debug_str     0x00002941       0xcc CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+                                0x85b (size before relaxing)
+ .debug_str     0x00002a0d      0x49c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+                                0xcb4 (size before relaxing)
+ .debug_str     0x00002ea9      0xa24 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+                               0x133b (size before relaxing)
+ .debug_str     0x000038cd      0x483 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+                                0xc14 (size before relaxing)
+ .debug_str     0x00003d50      0x2aa CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+                                0x7f3 (size before relaxing)
+ .debug_str     0x00003ffa      0xa43 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+                               0x127f (size before relaxing)
+ .debug_str     0x00004a3d      0x37f CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+                                0x699 (size before relaxing)
+ .debug_str     0x00004dbc      0x323 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+                                0x7b7 (size before relaxing)
+ .debug_str     0x000050df      0x129 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+                                0x592 (size before relaxing)
+ .debug_str     0x00005208      0x8be CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+                               0x1122 (size before relaxing)
+ .debug_str     0x00005ac6       0xe6 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+                                0xa38 (size before relaxing)
+ .debug_str     0x00005bac       0x67 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+                                0x2e2 (size before relaxing)
+ .debug_str     0x00005c13      0x509 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+                                0x834 (size before relaxing)
+ .debug_str     0x0000611c      0x239 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+                                0x881 (size before relaxing)
+ .debug_str     0x00006355      0x391 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+                                0xa68 (size before relaxing)
+ .debug_str     0x000066e6      0xf49 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+                               0x18c1 (size before relaxing)
+ .debug_str     0x0000762f      0x93a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+                               0x1519 (size before relaxing)
 
 .comment        0x00000000       0x49
  .comment       0x00000000       0x49 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
@@ -2674,7 +2680,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .comment       0x00000049       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
  .comment       0x00000049       0x4a CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
 
-.debug_frame    0x00000000     0x3b08
+.debug_frame    0x00000000     0x3b28
  .debug_frame   0x00000000       0x6c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/adc.c.obj
  .debug_frame   0x0000006c       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/dma.c.obj
  .debug_frame   0x00000098       0x60 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/fdcan.c.obj
@@ -2686,31 +2692,31 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .debug_frame   0x00000268      0x110 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/stm32g4xx_it.c.obj
  .debug_frame   0x00000378       0x30 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/system_stm32g4xx.c.obj
  .debug_frame   0x000003a8       0x64 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/Src/tim.c.obj
- .debug_frame   0x0000040c       0xa4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
- .debug_frame   0x000004b0       0xd8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
- .debug_frame   0x00000588       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
- .debug_frame   0x000005b4       0x98 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
- .debug_frame   0x0000064c       0x90 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
- .debug_frame   0x000006dc      0x2a4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
- .debug_frame   0x00000980      0x2f8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
- .debug_frame   0x00000c78      0x168 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
- .debug_frame   0x00000de0      0x16c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
- .debug_frame   0x00000f4c      0x4a4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
- .debug_frame   0x000013f0      0x138 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
- .debug_frame   0x00001528      0x1f0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
- .debug_frame   0x00001718       0xd0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
- .debug_frame   0x000017e8      0x970 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
- .debug_frame   0x00002158       0x80 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
- .debug_frame   0x000021d8       0x44 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
- .debug_frame   0x0000221c      0x268 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
- .debug_frame   0x00002484      0x198 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
- .debug_frame   0x0000261c      0x1a0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
- .debug_frame   0x000027bc      0xb50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
- .debug_frame   0x0000330c      0x610 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
- .debug_frame   0x0000391c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
- .debug_frame   0x00003948       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
- .debug_frame   0x00003974       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
- .debug_frame   0x000039d0       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
- .debug_frame   0x000039f0       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
- .debug_frame   0x00003a24       0xb0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
- .debug_frame   0x00003ad4       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000040c       0xc4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_fdcan.c.obj
+ .debug_frame   0x000004d0       0xd8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_flash.c.obj
+ .debug_frame   0x000005a8       0x2c CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_key.c.obj
+ .debug_frame   0x000005d4       0x98 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_time.c.obj
+ .debug_frame   0x0000066c       0x90 CMakeFiles/Robot_Hand_v2.0.elf.dir/Core/User/Src/my_vl6180x.c.obj
+ .debug_frame   0x000006fc      0x2a4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+ .debug_frame   0x000009a0      0x2f8 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+ .debug_frame   0x00000c98      0x168 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+ .debug_frame   0x00000e00      0x16c CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+ .debug_frame   0x00000f6c      0x4a4 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+ .debug_frame   0x00001410      0x138 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+ .debug_frame   0x00001548      0x1f0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+ .debug_frame   0x00001738       0xd0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+ .debug_frame   0x00001808      0x970 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+ .debug_frame   0x00002178       0x80 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+ .debug_frame   0x000021f8       0x44 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c.obj
+ .debug_frame   0x0000223c      0x268 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+ .debug_frame   0x000024a4      0x198 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+ .debug_frame   0x0000263c      0x1a0 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+ .debug_frame   0x000027dc      0xb50 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+ .debug_frame   0x0000332c      0x610 CMakeFiles/Robot_Hand_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+ .debug_frame   0x0000393c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00003968       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x00003994       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x000039f0       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00003a10       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00003a44       0xb0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00003af4       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)

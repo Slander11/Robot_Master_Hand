@@ -62,18 +62,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define _3_3row1_Pin GPIO_PIN_0
-#define _3_3row1_GPIO_Port GPIOA
-#define _3_3row2_Pin GPIO_PIN_1
-#define _3_3row2_GPIO_Port GPIOA
-#define _3_3row3_Pin GPIO_PIN_2
-#define _3_3row3_GPIO_Port GPIOA
-#define _3_3col1_Pin GPIO_PIN_3
+#define _3_3col1_Pin GPIO_PIN_0
 #define _3_3col1_GPIO_Port GPIOA
-#define _3_3col2_Pin GPIO_PIN_4
+#define _3_3col2_Pin GPIO_PIN_1
 #define _3_3col2_GPIO_Port GPIOA
-#define _3_3col3_Pin GPIO_PIN_5
+#define _3_3col3_Pin GPIO_PIN_2
 #define _3_3col3_GPIO_Port GPIOA
+#define _3_3row1_Pin GPIO_PIN_3
+#define _3_3row1_GPIO_Port GPIOA
+#define _3_3row2_Pin GPIO_PIN_4
+#define _3_3row2_GPIO_Port GPIOA
+#define _3_3row3_Pin GPIO_PIN_5
+#define _3_3row3_GPIO_Port GPIOA
 #define ADC_Gripper_Stroke_Pin GPIO_PIN_6
 #define ADC_Gripper_Stroke_GPIO_Port GPIOA
 #define ADC_7axis_Rotation_Pin GPIO_PIN_7

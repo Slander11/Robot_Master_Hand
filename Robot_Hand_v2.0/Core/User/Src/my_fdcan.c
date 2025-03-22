@@ -21,6 +21,7 @@ FDCAN_TxHeaderTypeDef TXHeader;
 FDCAN_RxHeaderTypeDef RXHeader;
 
 extern uint32_t g_ChipId;
+extern uint8_t g_SendData[16];
 static void CanFilterInit(void);
 static uint8_t GetFDcanData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *RxMsg);
 /**
@@ -78,7 +79,7 @@ uint8_t CanSendMsg(uint32_t _id, uint8_t *_msg, uint32_t _len)
     TXHeader.TxFrameType = FDCAN_DATA_FRAME;
     TXHeader.DataLength = _len;
     TXHeader.ErrorStateIndicator = FDCAN_ESI_PASSIVE;
-    TXHeader.BitRateSwitch = FDCAN_BRS_ON;
+    TXHeader.BitRateSwitch = FDCAN_BRS_OFF;
     TXHeader.FDFormat = FDCAN_FD_CAN;
     TXHeader.TxEventFifoControl = FDCAN_NO_TX_EVENTS;
     TXHeader.MessageMarker = 0x00;
@@ -91,6 +92,28 @@ uint8_t CanSendMsg(uint32_t _id, uint8_t *_msg, uint32_t _len)
     if (state != HAL_OK)
         return state; /* 发送状态 */
     return 0;
+}
+
+/**
+ * @brief       canfd发送手柄数据函数
+ * @param       **
+ * @retval      **
+ */
+void SendHandState()
+{
+    if (0 == flash_param.can_id) {
+        /* 发送id */
+        uint32_t id = 0x100;
+        BitToUint32_value trans;
+        trans.uint32 = g_ChipId;
+        CanSendMsg(id, trans.bit, FDCAN_DLC_BYTES_4);
+    }
+    else {
+        /* 发送角度 */
+        uint32_t id = 0x100 | flash_param.can_id;
+
+        CanSendMsg(id, g_SendData, FDCAN_DLC_BYTES_16);
+    }
 }
 
 /**

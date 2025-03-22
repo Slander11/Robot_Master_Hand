@@ -95,16 +95,18 @@ int main(void)
   MX_SPI1_Init();
   MX_TIM7_Init();
   /* USER CODE BEGIN 2 */
+  HAL_Delay(100);
+
   CanInit();
 
   HAL_TIM_Base_Start_IT(&htim7);
   InitTimer();
   StartAutoTimer(SOFT_TIME1,1);
-  StartAutoTimer(SOFT_TIME2,2);
+  StartAutoTimer(SOFT_TIME2,3);
   StartAutoTimer(SOFT_TIME3,1000);
 
   InitFlash();
-  ReadChipId(g_ChipId);
+  ReadChipId(&g_ChipId);
   UpgradeFlashExamine();
 
   /* USER CODE END 2 */
@@ -114,6 +116,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
     if (1 == CheckTimer(SOFT_TIME1)) {
       /* 获取编码器数据 */
       ReadAmsSensor(&g_AmsOriginAngle);
@@ -122,12 +126,12 @@ int main(void)
       g_AmsDataprocessAngle = SendDataProcess();
     }
     if (1 == CheckTimer(SOFT_TIME2)) {
+      if (0 == g_Turnoffdev)
       SendAngleState();
     }
     if (1 == CheckTimer(SOFT_TIME3)) {
       HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port,LED_GREEN_Pin);
     }
-    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }

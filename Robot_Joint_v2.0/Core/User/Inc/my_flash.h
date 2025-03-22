@@ -38,12 +38,12 @@ typedef struct _intern_flash {
 } INTERN_FLASH;
 
 extern INTERN_FLASH flash_param;
-
+extern uint8_t g_Turnoffdev;
 void ReadFlashSpecifyLen(uint32_t _raddr, uint32_t *_pbuf, uint32_t _length);
 void WriteFlashSpecifyLen(uint32_t _raddr, uint32_t *_pbuf, uint32_t _length);
 void InitFlash(void);
 void WriteFlashDefault(uint8_t mode);
-void ReadChipId(uint32_t _chipId);
+void ReadChipId(uint32_t *_chipId);
 void UpgradeFlashExamine();
 
 #endif //MY_FLASH_H

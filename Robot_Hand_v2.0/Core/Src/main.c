@@ -108,6 +108,10 @@ int main(void)
   MX_IWDG_Init();
   MX_TIM7_Init();
   /* USER CODE BEGIN 2 */
+
+  HAL_Delay(100);
+  CanInit();
+
   HAL_TIM_Base_Start_IT(&htim7);
   InitTimer();
   StartAutoTimer(SOFT_TIME1,2);
@@ -118,7 +122,7 @@ int main(void)
   HAL_ADC_Start_DMA(&hadc2,(uint32_t*)g_Adc_Buffer,2);
 
   InitFlash();
-  ReadChipId(g_ChipId);
+  ReadChipId(&g_ChipId);
   UpgradeFlashExamine();
 
   VL6180X_Init();
@@ -136,8 +140,7 @@ int main(void)
       /* 整合数据 */
       SendDataIntegration();
 
-      /* 发送数据 */
-      CanSendMsg((uint32_t)(0x100 + flash_param.can_id), g_SendData, FDCAN_DLC_BYTES_16);
+      SendHandState();
     }
     if (1 == CheckTimer(SOFT_TIME2)) {
       /* 采集按键数据 */
@@ -145,7 +148,7 @@ int main(void)
     }
     if (1 == CheckTimer(SOFT_TIME3)) {
       /* 采集传感器数据 */
-      VL6180X_Read_Range(&g_VL6180xData);
+      // VL6180X_Read_Range(&g_VL6180xData);
     }
     if (1 == CheckTimer(SOFT_TIME4)) {
       /* 状态灯切换 */
@@ -210,17 +213,29 @@ void SystemClock_Config(void)
  */
 void SendDataIntegration(void)
 {
+  /* IO阵列按键数据处理 */
   for (int i = 0; i < 3; i++) {
     for (int j = 0; j < 3; j++) {
-      g_SendData[i*3+j] = g_Key_Matrix[i][j];
+      g_SendData[i*3+j] = g_Key_Matrix[j][i];
     }
   }
   for (int i = 0; i < 4; i++) {
     g_SendData[9+i] = g_Key_Matrix2[i];
   }
-  for (int i = 0; i < 2; i++) {
-    g_SendData[13+i] = g_Adc_Buffer[i];
-  }
+
+  /* 编码器数据处理 */
+  // g_Adc_Buffer[0] = g_Adc_Buffer[0] - flash_param.zero;
+  // if (flash_param.direction == 1)
+  // {
+  //   g_Adc_Buffer[0] = 65535 - g_Adc_Buffer[0];
+  // }
+  // int16_t temp_angle2 = (int16_t)g_Adc_Buffer[0];
+  // temp_angle2 = (int32_t)temp_angle2 * 360 * 128 / 65535;
+
+  g_SendData[13] = g_Adc_Buffer[0];
+
+  g_SendData[14] = g_Adc_Buffer[1];
+
   g_SendData[15] = g_VL6180xData;
 }
 

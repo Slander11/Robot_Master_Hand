@@ -70,6 +70,7 @@ void WriteFlashData(uint32_t _waddr, uint64_t *_pbuf, uint32_t _length)
     /* 计算当前页位置 */
     pagepos = offset / STM32FLASH_PAGE_SIZE;
 
+    __set_PRIMASK(1);
     HAL_FLASH_Unlock();           /* 解锁 */
     if (addrx < 0X1FF00000)
     {
@@ -107,6 +108,7 @@ void WriteFlashData(uint32_t _waddr, uint64_t *_pbuf, uint32_t _length)
         }
     }
     HAL_FLASH_Lock(); /* 上锁 */
+    __set_PRIMASK(0);
 }
 
 
@@ -193,9 +195,9 @@ void WriteFlashDefault(uint8_t mode)
  * @param       _chipid : 芯片id保存
  * @retval      **
  */
-void ReadChipId(uint32_t _chipId)
+void ReadChipId(uint32_t *_chipId)
 {
-    _chipId = *(volatile uint32_t  *)(STM32FLASH_DEVICE_ID);
+    *_chipId = *(volatile uint32_t  *)(STM32FLASH_DEVICE_ID);
 }
 
 /**

@@ -19,7 +19,7 @@ General_Frame LeftArm_Frame;
 General_Frame RightArm_Frame;
 General_Frame Boot_Frame;
 
-static uint16_t s_updata_index[2] = {0xfff0, 0xfff0};
+uint16_t s_updata_index = 0xfff0;
 
 /**
  * @brief       协议初始化
@@ -47,7 +47,7 @@ void GeneralFrameUPInit(General_Frame *_this, uint8_t _driver, uint8_t *_KindId,
     /* 版本 */
     _this->version = 0x01;
     /* 索引 */
-    trans_16.hex = s_updata_index[0];
+    trans_16.hex = s_updata_index;
     _this->index[0] = trans_16.bit[1];
     _this->index[1] = trans_16.bit[0];
     _this->ID = _KindId[1];
@@ -67,7 +67,7 @@ void GeneralFrameUPInit(General_Frame *_this, uint8_t _driver, uint8_t *_KindId,
     RingBuffWriteNByte(_this->pack_data_index, _this->index, 2);
     RingBuffWriteNByte(_this->pack_data_index, &_this->ID, 1);
     /* 索引递增 */
-    s_updata_index[0]++;
+    s_updata_index++;
 }
 
 /**

@@ -17,5 +17,5 @@
 
 void CanInit(void);
 uint8_t CanSendMsg(uint32_t _id, uint8_t *_msg, uint32_t _len);
-
+void SendHandState();
 #endif //MY_FDCAN_H

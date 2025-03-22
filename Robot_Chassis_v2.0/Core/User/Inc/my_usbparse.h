@@ -20,7 +20,7 @@
 /* 串口数据转换输出 */
 extern uint8_t g_OutManner;
 extern uint8_t g_ParseResults;
-extern uint8_t g_AllUpgrade;
+extern uint16_t g_AllUpgrade;
 extern uint8_t g_Shakehands;
 extern uint8_t g_UpgradeBegin;
 extern uint8_t g_ReceiveNg;
@@ -50,11 +50,14 @@ enum {
 #define UPGRADESIGN 0X0B
 #define UPGRADESIGNALL 0X0D
 #define REBOOT 0xFF
+#define TURNOFF 0x55
+#define TURNON 0x56
 
 void ReceiveDisassembly(void);
 void RingBuffMoveRight();
 void USBReceiveDataProcess(uint8_t *pdata);
 void ChangeData(void);
-
+void TurnOfAllDev();
+void TurnOnAllDev();
 
 #endif //MY_USBPARSE_H
