@@ -22,8 +22,10 @@ FDCAN_RxHeaderTypeDef RXHeader;
 
 extern uint32_t g_ChipId;
 extern uint8_t g_SendData[16];
+extern uint16_t g_Adc_Buffer[2];
 static void CanFilterInit(void);
 static uint8_t GetFDcanData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *RxMsg);
+static void ReceiveAnalyse(uint8_t *_data, uint32_t _size);
 /**
  * @brief       canfd初始化
  * @param       **
@@ -112,7 +114,7 @@ void SendHandState()
         /* 发送角度 */
         uint32_t id = 0x100 | flash_param.can_id;
 
-        CanSendMsg(id, g_SendData, FDCAN_DLC_BYTES_16);
+        CanSendMsg(id, g_SendData, FDCAN_DLC_BYTES_20);
     }
 }
 
@@ -174,12 +176,55 @@ static uint8_t GetFDcanData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_TXmessage
     }
     else if ((0x200 | flash_param.can_id) == _RxHeader->Identifier)
     {
-      if ( 0x1 == _TXmessage[0]){
-        WriteFlashDefault(1);
-      }
-      else if ( 0xbb == _TXmessage[0]){
-        WriteFlashDefault(2);
-      }
+        ReceiveAnalyse(_TXmessage, _RxHeader->DataLength);
     }
 }
 
+/**
+ * @brief       修改方向
+ * @param       **
+ * @retval      **
+ */
+static void ReviseDirection(void)
+{
+    if(flash_param.direction == 0)
+    {
+        flash_param.direction = 1;
+    }
+    else
+    {
+        flash_param.direction = 0;
+    }
+}
+
+static void ReceiveAnalyse(uint8_t *_data, uint32_t _size)
+{
+    if (_size == 1)
+    {
+        switch (_data[0])
+        {
+            case 0x01:
+                /* 重新保存数据 */
+                    WriteFlashDefault(1);
+            break;
+            case 0x10:
+                /* 编码器置零 */
+                    flash_param.zero = ((uint32_t)g_Adc_Buffer[0] * 0x1FFF / 2650);
+            break;
+            case 0x11:
+                /* 修改编码器方向 */
+                    ReviseDirection();
+            break;
+            case 0xbb:
+                /* 下次启动升级 */
+                    WriteFlashDefault(2);
+            break;
+            case 0xff:
+                /* 软重启 */
+                    NVIC_SystemReset();
+            break;
+            default:
+                break;
+        }
+    }
+}

@@ -29,7 +29,7 @@ GPIO_TypeDef* key_ports[4] = {Enable_Switch_GPIO_Port, Toggle_Switch_Up_GPIO_Por
 uint16_t key_pins[4] = {Enable_Switch_Pin, Toggle_Switch_Up_Pin, Toggle_Switch_Mid_Pin, Toggle_Switch_Down_Pin};
 
 /**
-  * @brief       3*3 按键扫描
+  * @brief       3*3 按键扫描 以及电位器，独立按键处理
   * @param       **
   * @retval      **
   */
@@ -68,6 +68,15 @@ void KeyScan(void)
     }
 
     for(int i = 0; i < 4; i++) {
-      g_Key_Matrix2[i] = HAL_GPIO_ReadPin(key_ports[i], key_pins[i]);
+        if (0 == i) {
+            g_Key_Matrix2[i] = HAL_GPIO_ReadPin(key_ports[i], key_pins[i]);
+        }else {
+            g_Key_Matrix2[i] = !HAL_GPIO_ReadPin(key_ports[i], key_pins[i]);
+        }
+
+    }
+
+    if (0  == g_Key_Matrix2[1] && 1 == g_Key_Matrix2[3] || 1 == g_Key_Matrix2[1] && 0 == g_Key_Matrix2[3]) {
+        g_Key_Matrix2[2] = 0;
     }
 }

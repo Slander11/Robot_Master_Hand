@@ -52,7 +52,7 @@
 uint16_t g_Adc_Buffer[2] = {};
 uint32_t g_ChipId = 0;
 uint8_t g_VL6180xData = 0;
-uint8_t g_SendData[16] = {};
+uint8_t g_SendData[20] = {};
 
 extern uint8_t g_Key_Matrix[ROWS][COLS];
 extern uint8_t g_Key_Matrix2[4];
@@ -130,6 +130,7 @@ int main(void)
   /* USER CODE END 2 */
 
   /* Infinite loop */
+
   /* USER CODE BEGIN WHILE */
   while (1)
   {
@@ -219,24 +220,31 @@ void SendDataIntegration(void)
       g_SendData[i*3+j] = g_Key_Matrix[j][i];
     }
   }
+
+  /* 单独按键处理 */
   for (int i = 0; i < 4; i++) {
     g_SendData[9+i] = g_Key_Matrix2[i];
   }
 
-  /* 编码器数据处理 */
-  // g_Adc_Buffer[0] = g_Adc_Buffer[0] - flash_param.zero;
-  // if (flash_param.direction == 1)
-  // {
-  //   g_Adc_Buffer[0] = 65535 - g_Adc_Buffer[0];
-  // }
-  // int16_t temp_angle2 = (int16_t)g_Adc_Buffer[0];
-  // temp_angle2 = (int32_t)temp_angle2 * 360 * 128 / 65535;
+  /* 电位器1采集数据处理 */
+  g_SendData[13] = g_Adc_Buffer[1] * 200 / 2650;
 
-  g_SendData[13] = g_Adc_Buffer[0];
+  /* 电位器2采集数据处理 */
+  uint16_t temp_angle1 = ((uint32_t)g_Adc_Buffer[0] * 0x1FFF / 2650) << 3;
 
-  g_SendData[14] = g_Adc_Buffer[1];
 
-  g_SendData[15] = g_VL6180xData;
+  temp_angle1 -= (flash_param.zero << 3);
+
+  if (flash_param.direction == 1) {
+    temp_angle1 = 65535 - temp_angle1;
+  }
+  int16_t temp_angle2 = (int16_t)temp_angle1;
+  temp_angle2 = (int32_t)temp_angle2 * 360 * 128 / 65535;
+
+  BitToHex_value _temphex;
+  _temphex.hex = (int16_t)temp_angle2;
+  g_SendData[14] = _temphex.bit[0];
+  g_SendData[15] = _temphex.bit[1];
 }
 
 /**

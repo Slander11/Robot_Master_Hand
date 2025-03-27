@@ -213,12 +213,12 @@ void UsbReset(void)
  */
 void SendDatAconformity(void) {
   uint8_t u8_kindid[2] = {0x01,0x53};
-  GeneralFrameUPInit(&LeftArm_Frame, 6, u8_kindid ,&LeftArm_RingBuff_t);
   GeneralFrameUPInit(&RightArm_Frame, 7, u8_kindid, &RightArm_RingBuff_t);
-  DataEncapsula(&LeftArm_Frame, g_lAngel_Buff);
+  GeneralFrameUPInit(&LeftArm_Frame, 6, u8_kindid ,&LeftArm_RingBuff_t);
   DataEncapsula(&RightArm_Frame, g_rAngel_Buff);
-  AgreementEncapsula(&LeftArm_Frame, TransData);
-  AgreementEncapsula(&RightArm_Frame, &TransData[GetPackSize(&LeftArm_Frame)]);
+  DataEncapsula(&LeftArm_Frame, g_lAngel_Buff);
+  AgreementEncapsula(&RightArm_Frame, TransData);
+  AgreementEncapsula(&LeftArm_Frame, &TransData[GetPackSize(&RightArm_Frame)]);
 
   /* 角度写入 */
   for (int i = 0; i < 8; i++) {

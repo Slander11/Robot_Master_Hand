@@ -102,7 +102,7 @@ int main(void)
   HAL_TIM_Base_Start_IT(&htim7);
   InitTimer();
   StartAutoTimer(SOFT_TIME1,1);
-  StartAutoTimer(SOFT_TIME2,3);
+  StartAutoTimer(SOFT_TIME2,2);
   StartAutoTimer(SOFT_TIME3,1000);
 
   InitFlash();

@@ -152,18 +152,49 @@ static void AnalyseData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg,int16_t
             g_rAngel_Buff[i]=trans_data.hex;
         }
     }
-    if (_RxHeader->Identifier == 0x108 && _RxHeader->DataLength == FDCAN_DLC_BYTES_16) {
-        g_lAngel_Buff[7] = _RxMsg[14];
+    if (_RxHeader->Identifier == 0x108 && _RxHeader->DataLength == FDCAN_DLC_BYTES_20) {
         for (uint8_t i = 0; i < 14; i++) {
             g_key_Buff[i] = _RxMsg[i];
         }
+        trans_data.bit[0] = _RxMsg[14];
+        trans_data.bit[1] = _RxMsg[15];
+        g_lAngel_Buff[7] = trans_data.hex;
     }
-    else if (_RxHeader->Identifier == 0x118 && _RxHeader->DataLength == FDCAN_DLC_BYTES_16) {
-        g_rAngel_Buff[7] = _RxMsg[14];
+    else if (_RxHeader->Identifier == 0x118 && _RxHeader->DataLength == FDCAN_DLC_BYTES_20) {
         for (uint8_t i = 0; i < 14; i++) {
             g_key_Buff[i + 14] = _RxMsg[i];
         }
+        trans_data.bit[0] = _RxMsg[14];
+        trans_data.bit[1] = _RxMsg[15];
+        g_rAngel_Buff[7] = trans_data.hex;
     }
+
+    /* 临时修改得程序，兼容上一代 */
+    if (g_key_Buff[13] <= 85) {
+        g_key_Buff[1] = 0;
+        g_key_Buff[0] = 1;
+    }else if (g_key_Buff[13] >= 92){
+        g_key_Buff[1] = 1;
+        g_key_Buff[0] = 0;
+    }else {
+        g_key_Buff[1] = 0;
+        g_key_Buff[0] = 0;
+    }
+    g_key_Buff[2] = g_key_Buff[5];
+    g_key_Buff[3] = g_key_Buff[9];
+
+    if (g_key_Buff[27] <= 85) {
+        g_key_Buff[15] = 0;
+        g_key_Buff[14] = 1;
+    }else if (g_key_Buff[27] >= 92){
+        g_key_Buff[15] = 1;
+        g_key_Buff[14] = 0;
+    }else {
+        g_key_Buff[15] = 0;
+        g_key_Buff[14] = 0;
+    }
+    g_key_Buff[16] = g_key_Buff[19];
+    g_key_Buff[17] = g_key_Buff[23];
 
 }
 
