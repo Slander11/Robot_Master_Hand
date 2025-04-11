@@ -191,3 +191,143 @@ uint8_t FalshErasePage(uint32_t _waddr)
 
     return 0;   /* 成功 */
 }
+
+/**
+  * @brief  解锁闪存进行写入访问
+  * @param  None
+  * @retval None
+  */
+void FLASH_If_Init(void)
+{
+  /* 解锁程序内存 */
+  HAL_FLASH_Unlock();
+
+  /* 清除所有闪存标志 */
+  __HAL_FLASH_CLEAR_FLAG(FLASH_FLAG_EOP | FLASH_FLAG_OPERR | FLASH_FLAG_WRPERR);
+  /* 锁定程序内存 */
+  HAL_FLASH_Lock();
+}
+
+/**
+  * @brief  此函数对所有用户闪存区域进行擦除
+  * @param  start: 用户闪存区域的开始
+  * @retval FLASHIF_OK : 用户闪存区域成功擦除
+  *         FLASHIF_ERASEKO : 发生了错误
+  */
+uint32_t FLASH_If_Erase(uint32_t start)
+{
+  uint32_t NbrOfPages = 0;
+  uint32_t PageError = 0;
+  FLASH_EraseInitTypeDef EraseInitStruct;
+  HAL_StatusTypeDef status = HAL_OK;
+
+  /* 解锁闪存以启用闪存控制寄存器访问 *************/
+  HAL_FLASH_Unlock();
+
+  /* 获取启动用户闪存区域的扇区 */
+  NbrOfPages = (USER_FLASH_END_ADDRESS - start)/FLASH_PAGE_SIZE;
+
+    EraseInitStruct.Banks = FLASH_BANK_1;
+  EraseInitStruct.TypeErase = FLASH_TYPEERASE_PAGES;
+  EraseInitStruct.Page = NbrOfPages;
+  EraseInitStruct.NbPages = 32;
+  status = HAL_FLASHEx_Erase(&EraseInitStruct, &PageError);
+
+  /* 锁定闪存以禁用闪存控制寄存器访问（建议保护闪存免受可能不必要的操作）*********/
+  HAL_FLASH_Lock();
+
+  if (status != HAL_OK)
+  {
+    /* 页面擦除时发生错误 */
+    return FLASHIF_ERASEKO;
+  }
+
+  return FLASHIF_OK;
+}
+
+/* Public functions ---------------------------------------------------------*/
+/**
+  * @brief  此函数在闪存中写入数据缓冲区 (数据是32位对齐的).
+  * @note   写入数据缓冲区后，检查闪存内容
+  * @param  destination: 目标位置的起始地址
+            p_source: 指向要写入数据的缓冲区的指针
+            length: 数据缓冲区的长度（单位是32位字）
+  * @retval uint32_t 0: 数据成功地写入闪存
+  *         1: 在闪存中写入数据时发生错误
+  *         2: 闪存中的写入数据不同于预期的数据
+  */
+uint32_t FLASH_If_Write(uint32_t destination, uint32_t *p_source, uint32_t length)
+{
+  uint32_t i = 0;
+    uint64_t data_to_write;
+  /* 解锁闪存以启用闪存控制寄存器访问 *************/
+  HAL_FLASH_Unlock();
+
+  for (i = 0; (i < length / 2) && (destination <= (USER_FLASH_END_ADDRESS - 8)); i++)
+  {
+      /* 合并两个32位数据为一个64位数据 */
+       data_to_write = *(uint64_t*)(p_source + 2 * i);
+    /* 设备电压范围应为[2.7V至3.6V]，操作将通过Word完成*/
+    if (HAL_FLASH_Program(FLASH_TYPEPROGRAM_DOUBLEWORD, destination, data_to_write) == HAL_OK)
+    {
+     /* 检查写入的值 */
+      if (*(uint64_t*)destination != data_to_write)
+      {
+        /* 闪存内容与SRAM内容不匹配 */
+        return(FLASHIF_WRITINGCTRL_ERROR);
+      }
+      /* 增量Flash目的地地址 */
+      destination += 8;
+    }
+    else
+    {
+      /* 在闪存中写入数据时发生错误 */
+      return (FLASHIF_WRITING_ERROR);
+    }
+  }
+
+    /* 处理剩余的单字（32位）数据（如果length为奇数） */
+    if (length % 2 != 0) {
+        // 读取目标地址的原始64位数据
+        uint64_t original_data = *(uint64_t*)destination;
+        // 替换低32位（保留高32位不变）
+        data_to_write = (original_data & 0xFFFFFFFF00000000) | *(uint32_t*)(p_source + 2 * i);
+
+        if (HAL_FLASH_Program(FLASH_TYPEPROGRAM_DOUBLEWORD, destination, data_to_write) != HAL_OK) {
+            HAL_FLASH_Lock();
+            return FLASHIF_WRITING_ERROR;
+        }
+        /* 验证写入 */
+        if (*(uint64_t*)destination != data_to_write) {
+            HAL_FLASH_Lock();
+            return FLASHIF_WRITINGCTRL_ERROR;
+        }
+    }
+
+  /* 锁定闪存以禁用闪存控制寄存器访问(建议保护闪存免受可能不必要的操作 *********/
+  HAL_FLASH_Lock();
+
+  return (FLASHIF_OK);
+}
+
+/**
+  * @brief  返回应用程序闪存区域的写保护状态
+  * @param  None
+  * @retval 如果应用程序区域中的扇区是写保护的，则返回值是一个组合
+                   可能的值 : FLASHIF_PROTECTION_WRPENABLED, FLASHIF_PROTECTION_PCROPENABLED, ...
+  *        如果没有扇区是写保护的  FLASHIF_PROTECTION_NONE 被退回.
+  */
+uint32_t FLASH_If_GetWriteProtectionStatus(void)
+{
+    return FLASHIF_PROTECTION_NONE;
+}
+
+/**
+  * @brief  配置用户闪存区域的写保护状态.
+  * @param  protectionstate : FLASHIF_WRP_DISABLE or FLASHIF_WRP_ENABLE the protection
+  * @retval uint32_t FLASHIF_OK if change is applied.
+  */
+uint32_t FLASH_If_WriteProtectionConfig(uint32_t protectionstate)
+{
+  return  FLASHIF_OK;
+}

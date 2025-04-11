@@ -111,6 +111,8 @@ int main(void)
 
   FRAME_Init(&BoaruUploadBuff);
 
+  FLASH_If_Init();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

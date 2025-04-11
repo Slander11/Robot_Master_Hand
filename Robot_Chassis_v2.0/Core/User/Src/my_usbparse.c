@@ -23,7 +23,10 @@ uint8_t g_UpgradeBegin = 0;
 uint8_t g_ReceiveNg = 0;
 uint8_t g_EndData = 0;
 
+uint8_t g_CDCFlag = 0;
 uint32_t g_id = 0x99;
+
+uint8_t ymodem_demo = 0;
 /**
  * @brief       接收命令解析函数
  * @param       **
@@ -415,6 +418,16 @@ static void CanFlashMoveData(uint8_t *data)
 }
 
 /**
+ * @brief       代码下载
+ * @param       **
+ * @retval      **
+ */
+static void DemoDown(void) {
+    Main_Menu();
+}
+
+
+/**
  * @brief       分析协议
  * @param       _pdata : 关键报文
  * @retval      **
@@ -460,6 +473,11 @@ void USBReceiveDataProcess(uint8_t *_pdata)
             break;
         case TURNON:
             TurnOnAllDev();
+            break;
+        case DEMODOWN:
+            ymodem_demo = 1;
+            DemoDown();
+            ymodem_demo = 0;
             break;
         default:
             break;

@@ -52,6 +52,7 @@ enum {
 #define REBOOT 0xFF
 #define TURNOFF 0x55
 #define TURNON 0x56
+#define DEMODOWN 0x10
 
 void ReceiveDisassembly(void);
 void RingBuffMoveRight();

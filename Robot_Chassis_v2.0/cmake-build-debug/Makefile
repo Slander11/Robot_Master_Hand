@@ -400,6 +400,30 @@ Core/User/Src/my_agreement.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_agreement.c.s
 .PHONY : Core/User/Src/my_agreement.c.s
 
+Core/User/Src/my_common.obj: Core/User/Src/my_common.c.obj
+.PHONY : Core/User/Src/my_common.obj
+
+# target to build an object file
+Core/User/Src/my_common.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_common.c.obj
+.PHONY : Core/User/Src/my_common.c.obj
+
+Core/User/Src/my_common.i: Core/User/Src/my_common.c.i
+.PHONY : Core/User/Src/my_common.i
+
+# target to preprocess a source file
+Core/User/Src/my_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_common.c.i
+.PHONY : Core/User/Src/my_common.c.i
+
+Core/User/Src/my_common.s: Core/User/Src/my_common.c.s
+.PHONY : Core/User/Src/my_common.s
+
+# target to generate assembly for a file
+Core/User/Src/my_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_common.c.s
+.PHONY : Core/User/Src/my_common.c.s
+
 Core/User/Src/my_fdcan.obj: Core/User/Src/my_fdcan.c.obj
 .PHONY : Core/User/Src/my_fdcan.obj
 
@@ -447,6 +471,30 @@ Core/User/Src/my_flash.s: Core/User/Src/my_flash.c.s
 Core/User/Src/my_flash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_flash.c.s
 .PHONY : Core/User/Src/my_flash.c.s
+
+Core/User/Src/my_menu.obj: Core/User/Src/my_menu.c.obj
+.PHONY : Core/User/Src/my_menu.obj
+
+# target to build an object file
+Core/User/Src/my_menu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_menu.c.obj
+.PHONY : Core/User/Src/my_menu.c.obj
+
+Core/User/Src/my_menu.i: Core/User/Src/my_menu.c.i
+.PHONY : Core/User/Src/my_menu.i
+
+# target to preprocess a source file
+Core/User/Src/my_menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_menu.c.i
+.PHONY : Core/User/Src/my_menu.c.i
+
+Core/User/Src/my_menu.s: Core/User/Src/my_menu.c.s
+.PHONY : Core/User/Src/my_menu.s
+
+# target to generate assembly for a file
+Core/User/Src/my_menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_menu.c.s
+.PHONY : Core/User/Src/my_menu.c.s
 
 Core/User/Src/my_ringbuff.obj: Core/User/Src/my_ringbuff.c.obj
 .PHONY : Core/User/Src/my_ringbuff.obj
@@ -543,6 +591,30 @@ Core/User/Src/my_vofa.s: Core/User/Src/my_vofa.c.s
 Core/User/Src/my_vofa.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_vofa.c.s
 .PHONY : Core/User/Src/my_vofa.c.s
+
+Core/User/Src/my_ymodem.obj: Core/User/Src/my_ymodem.c.obj
+.PHONY : Core/User/Src/my_ymodem.obj
+
+# target to build an object file
+Core/User/Src/my_ymodem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_ymodem.c.obj
+.PHONY : Core/User/Src/my_ymodem.c.obj
+
+Core/User/Src/my_ymodem.i: Core/User/Src/my_ymodem.c.i
+.PHONY : Core/User/Src/my_ymodem.i
+
+# target to preprocess a source file
+Core/User/Src/my_ymodem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_ymodem.c.i
+.PHONY : Core/User/Src/my_ymodem.c.i
+
+Core/User/Src/my_ymodem.s: Core/User/Src/my_ymodem.c.s
+.PHONY : Core/User/Src/my_ymodem.s
+
+# target to generate assembly for a file
+Core/User/Src/my_ymodem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_ymodem.c.s
+.PHONY : Core/User/Src/my_ymodem.c.s
 
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj
@@ -1259,12 +1331,18 @@ help:
 	@echo ... Core/User/Src/my_agreement.obj
 	@echo ... Core/User/Src/my_agreement.i
 	@echo ... Core/User/Src/my_agreement.s
+	@echo ... Core/User/Src/my_common.obj
+	@echo ... Core/User/Src/my_common.i
+	@echo ... Core/User/Src/my_common.s
 	@echo ... Core/User/Src/my_fdcan.obj
 	@echo ... Core/User/Src/my_fdcan.i
 	@echo ... Core/User/Src/my_fdcan.s
 	@echo ... Core/User/Src/my_flash.obj
 	@echo ... Core/User/Src/my_flash.i
 	@echo ... Core/User/Src/my_flash.s
+	@echo ... Core/User/Src/my_menu.obj
+	@echo ... Core/User/Src/my_menu.i
+	@echo ... Core/User/Src/my_menu.s
 	@echo ... Core/User/Src/my_ringbuff.obj
 	@echo ... Core/User/Src/my_ringbuff.i
 	@echo ... Core/User/Src/my_ringbuff.s
@@ -1277,6 +1355,9 @@ help:
 	@echo ... Core/User/Src/my_vofa.obj
 	@echo ... Core/User/Src/my_vofa.i
 	@echo ... Core/User/Src/my_vofa.s
+	@echo ... Core/User/Src/my_ymodem.obj
+	@echo ... Core/User/Src/my_ymodem.i
+	@echo ... Core/User/Src/my_ymodem.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s

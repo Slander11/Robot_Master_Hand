@@ -50,4 +50,7 @@ CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_usbparse.c.obj: \
  c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_globe.h \
  c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_agreement.h \
  c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_usbparse.h \
- c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_vofa.h
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_vofa.h \
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_common.h \
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_ymodem.h \
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_menu.h

@@ -214,6 +214,12 @@ static void ReviseDirection(void)
 	}
 }
 
+/**
+ * @brief       接收处理
+ * @param       *_data ： 数据
+                _size  :  大小
+ * @retval      **
+ */
 static void ReceiveAnalyse(uint8_t *_data, uint32_t _size)
 {
   if (_size == 1)

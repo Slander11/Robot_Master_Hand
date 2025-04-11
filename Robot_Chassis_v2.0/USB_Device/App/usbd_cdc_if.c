@@ -31,7 +31,11 @@
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
+enum {
+  CHECK_HEAD,
+  COPY_PACKET,
+  CHECK_CRC
+};
 /* USER CODE END PV */
 
 /** @addtogroup STM32_USB_OTG_DEVICE_LIBRARY
@@ -258,12 +262,33 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t* pbuf, uint16_t length)
   * @param  Len: Number of data received (in bytes)
   * @retval Result of the operation: USBD_OK if all operations are OK else USBD_FAIL
   */
+extern u_int8_t ymodem_demo;
 static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
-{
+ {
   /* USER CODE BEGIN 6 */
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
-  RingBuffWriteNByte(&Usb_RingBuff_t,&Buf[0],*Len);
+
+  static u_int16_t  num = 0;
+  if (1 == ymodem_demo) {
+    if ( 1 == *Len && Buf[0] == 0x04) {
+      g_Demobuff[0] = Buf[0];
+      g_Startdemo = 1;
+      num = 0;
+      return (USBD_OK);
+    }
+    for (int i = 0; i < *Len; i++) {
+      g_Demobuff[num + i] = Buf[i];
+    }
+    if (133 == (num + *Len) || 1029 == (num + *Len)) {
+      num = 0;
+      g_Startdemo = 1;
+    }else
+      num += *Len;
+  }
+  else {
+    RingBuffWriteNByte(&Usb_RingBuff_t,&Buf[0],*Len);
+  }
   return (USBD_OK);
   /* USER CODE END 6 */
 }

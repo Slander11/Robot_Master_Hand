@@ -255,17 +255,24 @@ void SendDataIntegration(void)
 void StatusLightSwitch(void)
 {
   /* 使能 && 检测传感器没有被握住 */
-  if (g_VL6180xData > 20 && (HAL_GPIO_ReadPin(Enable_Switch_GPIO_Port, Enable_Switch_Pin) == GPIO_PIN_SET)) {
+  // if (g_VL6180xData > 20 && (HAL_GPIO_ReadPin(Enable_Switch_GPIO_Port, Enable_Switch_Pin) == GPIO_PIN_SET)) {
+  //   HAL_GPIO_WritePin(Led_Green_GPIO_Port, Led_Green_Pin, GPIO_PIN_RESET);
+  // }
+  //
+  // /* 使能 && 检测传感器被握住 */
+  // if (g_VL6180xData < 20 && (HAL_GPIO_ReadPin(Enable_Switch_GPIO_Port, Enable_Switch_Pin) == GPIO_PIN_SET)) {
+  //   HAL_GPIO_WritePin(Led_Green_GPIO_Port, Led_Green_Pin, GPIO_PIN_SET);
+  // }
+
+  /* 发生异常 */
+  if ((HAL_GPIO_ReadPin(Enable_Switch_GPIO_Port, Enable_Switch_Pin) == GPIO_PIN_SET)) {
     HAL_GPIO_WritePin(Led_Green_GPIO_Port, Led_Green_Pin, GPIO_PIN_RESET);
   }
 
   /* 使能 && 检测传感器被握住 */
-  if (g_VL6180xData < 20 && (HAL_GPIO_ReadPin(Enable_Switch_GPIO_Port, Enable_Switch_Pin) == GPIO_PIN_SET)) {
+  if ((HAL_GPIO_ReadPin(Enable_Switch_GPIO_Port, Enable_Switch_Pin) == GPIO_PIN_SET)) {
     HAL_GPIO_WritePin(Led_Green_GPIO_Port, Led_Green_Pin, GPIO_PIN_SET);
   }
-
-  /* 发生异常 */
-
   /* 绿灯上电后是否常亮 */
 
 }

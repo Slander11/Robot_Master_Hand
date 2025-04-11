@@ -51,4 +51,7 @@ CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/Src/fdcan.c.obj: \
  c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_agreement.h \
  c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_usbparse.h \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint-gcc.h \
- c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_vofa.h
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_vofa.h \
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_common.h \
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_ymodem.h \
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_menu.h

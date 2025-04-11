@@ -27,6 +27,33 @@
 #define BANK1_START_ADDR        ((uint32_t)0x08000000)                      /* Bank1页0起始地址 */
 #define BANK1_FLASH_PAGE(n)     (BANK1_START_ADDR + ((n) * PAGE_SIZE))      /* 定义Bank1的页面地址 */
 
+#define APPLICATION_ADDRESS     (uint32_t)0x8010000
+#define USER_FLASH_END_ADDRESS  (uint32_t)0x8020000                                  /* 结束地址 */
+/* 定义用户应用程序大小 */    //64k
+#define USER_FLASH_SIZE         ((uint32_t)0x00008000)
+/* Error code */
+enum
+{
+    FLASHIF_OK = 0,
+    FLASHIF_ERASEKO,
+    FLASHIF_WRITINGCTRL_ERROR,
+    FLASHIF_WRITING_ERROR,
+    FLASHIF_PROTECTION_ERRROR
+  };
+
+/* protection type */
+enum{
+    FLASHIF_PROTECTION_NONE         = 0,
+    FLASHIF_PROTECTION_PCROPENABLED = 0x1,
+    FLASHIF_PROTECTION_WRPENABLED   = 0x2,
+    FLASHIF_PROTECTION_RDPENABLED   = 0x4,
+  };
+
+/* protection update */
+enum {
+    FLASHIF_WRP_ENABLE,
+    FLASHIF_WRP_DISABLE
+};
 
 uint32_t FlashReadWord(uint32_t _faddr);
 void FlashRead(uint32_t _raddr, uint32_t *_pbuf, uint32_t _length);
@@ -34,6 +61,12 @@ uint8_t GetFlashSector(uint32_t _addr);
 void FlashWrite(uint32_t _waddr, uint32_t *_pbuf, uint32_t _length);
 void FlashNoEraseWrite(uint32_t _waddr, uint32_t *_pbuf, uint32_t _length);
 uint8_t FalshErasePage(uint32_t _waddr);
+
+void FLASH_If_Init(void);
+uint32_t FLASH_If_Erase(uint32_t StartSector);
+uint32_t FLASH_If_GetWriteProtectionStatus(void);
+uint32_t FLASH_If_Write(uint32_t destination, uint32_t *p_source, uint32_t length);
+uint32_t FLASH_If_WriteProtectionConfig(uint32_t protectionstate);
 
 
 #endif //MY_FLASH_H

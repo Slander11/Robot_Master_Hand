@@ -39,6 +39,9 @@ extern "C" {
 #include "../User/Inc/my_agreement.h"
 #include "../User/Inc/my_usbparse.h"
 #include "../User/Inc/my_vofa.h"
+#include "../User/Inc/my_common.h"
+#include "../User/Inc/my_ymodem.h"
+#include "../User/Inc/my_menu.h"
 
 /* USER CODE END Includes */
 
