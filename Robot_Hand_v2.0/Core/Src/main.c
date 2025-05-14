@@ -270,7 +270,7 @@ void StatusLightSwitch(void)
   }
 
   /* 使能 && 检测传感器被握住 */
-  if ((HAL_GPIO_ReadPin(Enable_Switch_GPIO_Port, Enable_Switch_Pin) == GPIO_PIN_SET)) {
+  if ((HAL_GPIO_ReadPin(Enable_Switch_GPIO_Port, Enable_Switch_Pin) == GPIO_PIN_RESET)) {
     HAL_GPIO_WritePin(Led_Green_GPIO_Port, Led_Green_Pin, GPIO_PIN_SET);
   }
   /* 绿灯上电后是否常亮 */

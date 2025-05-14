@@ -116,22 +116,22 @@ void DataEncapsula(General_Frame *_this, const int16_t *_angle)
     /* 按键数据 */
     if(_this->driver == 6)
     {
-        for (int i = 0; i < 14; i++)
+        for (int i = 0; i < 17; i++)
         {
             RingBuffWriteNByte(_this->pack_data_index, &g_key_Buff[i], 1);
         }
     }
     else
     {
-        for (int i = 14; i < 28; i++)
+        for (int i = 16; i < 32; i++)
         {
             RingBuffWriteNByte(_this->pack_data_index, &g_key_Buff[i], 1);
         }
     }
-
+    RingBuffWriteNByte(_this->pack_data_index,&foot_data,1);
     /* 占空 */
-    uint8_t Duy[2] = {};
-    RingBuffWriteNByte(_this->pack_data_index,Duy,2);
+    uint8_t Duy[3] = {};
+    RingBuffWriteNByte(_this->pack_data_index,Duy,3);
 }
 
 /**

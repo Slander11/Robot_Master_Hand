@@ -128,6 +128,30 @@ Robot_Chassis_v2.0.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/build
 .PHONY : Robot_Chassis_v2.0.elf/fast
 
+Core/Src/adc.obj: Core/Src/adc.c.obj
+.PHONY : Core/Src/adc.obj
+
+# target to build an object file
+Core/Src/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/Src/adc.c.obj
+.PHONY : Core/Src/adc.c.obj
+
+Core/Src/adc.i: Core/Src/adc.c.i
+.PHONY : Core/Src/adc.i
+
+# target to preprocess a source file
+Core/Src/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/Src/adc.c.i
+.PHONY : Core/Src/adc.c.i
+
+Core/Src/adc.s: Core/Src/adc.c.s
+.PHONY : Core/Src/adc.s
+
+# target to generate assembly for a file
+Core/Src/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/Src/adc.c.s
+.PHONY : Core/Src/adc.c.s
+
 Core/Src/fdcan.obj: Core/Src/fdcan.c.obj
 .PHONY : Core/Src/fdcan.obj
 
@@ -472,6 +496,30 @@ Core/User/Src/my_flash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_flash.c.s
 .PHONY : Core/User/Src/my_flash.c.s
 
+Core/User/Src/my_foot.obj: Core/User/Src/my_foot.c.obj
+.PHONY : Core/User/Src/my_foot.obj
+
+# target to build an object file
+Core/User/Src/my_foot.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_foot.c.obj
+.PHONY : Core/User/Src/my_foot.c.obj
+
+Core/User/Src/my_foot.i: Core/User/Src/my_foot.c.i
+.PHONY : Core/User/Src/my_foot.i
+
+# target to preprocess a source file
+Core/User/Src/my_foot.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_foot.c.i
+.PHONY : Core/User/Src/my_foot.c.i
+
+Core/User/Src/my_foot.s: Core/User/Src/my_foot.c.s
+.PHONY : Core/User/Src/my_foot.s
+
+# target to generate assembly for a file
+Core/User/Src/my_foot.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Core/User/Src/my_foot.c.s
+.PHONY : Core/User/Src/my_foot.c.s
+
 Core/User/Src/my_menu.obj: Core/User/Src/my_menu.c.obj
 .PHONY : Core/User/Src/my_menu.obj
 
@@ -639,6 +687,54 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s: Drivers/STM32G4xx_HAL_Driver/S
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.s
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.s
 
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.obj
@@ -1072,6 +1168,30 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.s
 
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot_Chassis_v2.0.elf.dir\build.make CMakeFiles/Robot_Chassis_v2.0.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s
+
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c.obj
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.obj
 
@@ -1297,6 +1417,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Robot_Chassis_v2.0.elf
+	@echo ... Core/Src/adc.obj
+	@echo ... Core/Src/adc.i
+	@echo ... Core/Src/adc.s
 	@echo ... Core/Src/fdcan.obj
 	@echo ... Core/Src/fdcan.i
 	@echo ... Core/Src/fdcan.s
@@ -1340,6 +1463,9 @@ help:
 	@echo ... Core/User/Src/my_flash.obj
 	@echo ... Core/User/Src/my_flash.i
 	@echo ... Core/User/Src/my_flash.s
+	@echo ... Core/User/Src/my_foot.obj
+	@echo ... Core/User/Src/my_foot.i
+	@echo ... Core/User/Src/my_foot.s
 	@echo ... Core/User/Src/my_menu.obj
 	@echo ... Core/User/Src/my_menu.i
 	@echo ... Core/User/Src/my_menu.s
@@ -1361,6 +1487,12 @@ help:
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.s
@@ -1415,6 +1547,9 @@ help:
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.s

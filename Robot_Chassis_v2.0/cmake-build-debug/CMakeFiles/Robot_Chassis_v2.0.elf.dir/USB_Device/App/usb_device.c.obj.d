@@ -28,6 +28,9 @@ CMakeFiles/Robot_Chassis_v2.0.elf.dir/USB_Device/App/usb_device.c.obj: \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_dma.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_dma_ex.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_cortex.h \
+ C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_adc.h \
+ C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_ll_adc.h \
+ C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_adc_ex.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_exti.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_fdcan.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_flash.h \

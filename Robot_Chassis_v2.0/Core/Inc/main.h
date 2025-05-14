@@ -42,6 +42,7 @@ extern "C" {
 #include "../User/Inc/my_common.h"
 #include "../User/Inc/my_ymodem.h"
 #include "../User/Inc/my_menu.h"
+#include "../User/Inc/my_foot.h"
 
 /* USER CODE END Includes */
 

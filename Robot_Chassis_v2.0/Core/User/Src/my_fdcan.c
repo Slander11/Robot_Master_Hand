@@ -24,7 +24,7 @@ FDCAN_RxHeaderTypeDef RXHeader;
 
 int16_t g_lAngel_Buff[8] = {};                /* 左关节角度 */
 int16_t g_rAngel_Buff[8] = {};                /* 右关节角度 */
-uint8_t g_key_Buff[28] = {};                  /* 按键状态 */
+uint8_t g_key_Buff[34] = {};                  /* 按键状态 */
 
 static void CanFilterInit(void);
 static uint8_t GetFDcanData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg);
@@ -140,6 +140,8 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *_hfdcan, uint32_t _RxFifo0IT
 static void AnalyseData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg,int16_t *_lAngel, int16_t *_rAngel, uint8_t *_Key)
 {
     BitToHex_value trans_data;
+    uint32_t cur_signal = 0;
+    static uint32_t ber_signal = 0;
     for (uint8_t i = 0; i < 7; i++) {
         if (_RxHeader->Identifier == 0x101 + i && _RxHeader->DataLength == FDCAN_DLC_BYTES_2) {
             trans_data.bit[0]=_RxMsg[0];
@@ -162,40 +164,80 @@ static void AnalyseData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg,int16_t
     }
     else if (_RxHeader->Identifier == 0x118 && _RxHeader->DataLength == FDCAN_DLC_BYTES_20) {
         for (uint8_t i = 0; i < 14; i++) {
-            g_key_Buff[i + 14] = _RxMsg[i];
+            g_key_Buff[i + 16] = _RxMsg[i];
         }
         trans_data.bit[0] = _RxMsg[14];
         trans_data.bit[1] = _RxMsg[15];
         g_rAngel_Buff[7] = trans_data.hex;
     }
 
-    /* 临时修改得程序，兼容上一代 */
+    /* 172 - 197 临时修改得程序，兼容上一代 */
+    // if (g_key_Buff[13] <= 85) {
+    //     g_key_Buff[1] = 0;
+    //     g_key_Buff[0] = 1;
+    // }else if (g_key_Buff[13] >= 92){
+    //     g_key_Buff[1] = 1;
+    //     g_key_Buff[0] = 0;
+    // }else {
+    //     g_key_Buff[1] = 0;
+    //     g_key_Buff[0] = 0;
+    // }
+    // g_key_Buff[2] = g_key_Buff[4];
+    // g_key_Buff[3] = g_key_Buff[9];
+    //
+    // if (g_key_Buff[27] <= 85) {
+    //     g_key_Buff[15] = 0;
+    //     g_key_Buff[14] = 1;
+    // }else if (g_key_Buff[27] >= 92){
+    //     g_key_Buff[15] = 1;
+    //     g_key_Buff[14] = 0;
+    // }else {
+    //     g_key_Buff[15] = 0;
+    //     g_key_Buff[14] = 0;
+    // }
+    // g_key_Buff[16] = g_key_Buff[18];
+    // g_key_Buff[17] = g_key_Buff[23];
+
+    /* 199 - 220 v2.0版本更改正式使用 */
     if (g_key_Buff[13] <= 85) {
-        g_key_Buff[1] = 0;
-        g_key_Buff[0] = 1;
-    }else if (g_key_Buff[13] >= 92){
-        g_key_Buff[1] = 1;
-        g_key_Buff[0] = 0;
-    }else {
-        g_key_Buff[1] = 0;
-        g_key_Buff[0] = 0;
-    }
-    g_key_Buff[2] = g_key_Buff[5];
-    g_key_Buff[3] = g_key_Buff[9];
-
-    if (g_key_Buff[27] <= 85) {
-        g_key_Buff[15] = 0;
         g_key_Buff[14] = 1;
-    }else if (g_key_Buff[27] >= 92){
-        g_key_Buff[15] = 1;
-        g_key_Buff[14] = 0;
-    }else {
         g_key_Buff[15] = 0;
+    }else if (g_key_Buff[13] >= 92) {
         g_key_Buff[14] = 0;
+        g_key_Buff[15] = 1;
+    }else {
+        g_key_Buff[14] = 0;
+        g_key_Buff[15] = 0;
     }
-    g_key_Buff[16] = g_key_Buff[19];
-    g_key_Buff[17] = g_key_Buff[23];
+    // g_key_Buff[13] = g_key_Buff[13] - 88;
 
+    if (g_key_Buff[29] <= 85) {
+        g_key_Buff[30] = 1;
+        g_key_Buff[31] = 0;
+    }else if (g_key_Buff[29] >= 92) {
+        g_key_Buff[30] = 0;
+        g_key_Buff[31] = 1;
+    }else {
+        g_key_Buff[30] = 0;
+        g_key_Buff[31] = 0;
+    }
+    // g_key_Buff[29] = g_key_Buff[29] - 88;
+
+    for (uint8_t i = 0; i < 13; i++) {
+        cur_signal |=(uint32_t)g_key_Buff[i] << i;
+    }
+    for (uint8_t i = 14; i < 29; i++) {
+        cur_signal |=(uint32_t)g_key_Buff[i] << i;
+    }
+    for (uint8_t i = 30; i < 32; i++) {
+        cur_signal |=(uint32_t)g_key_Buff[i] << i;
+    }
+
+    if (cur_signal != ber_signal)
+        g_key_Buff[16] = 1;
+    else
+        g_key_Buff[16] = 0;
+    ber_signal = cur_signal;
 }
 
 /**

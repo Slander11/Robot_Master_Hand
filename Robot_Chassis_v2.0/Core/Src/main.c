@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "fdcan.h"
 #include "iwdg.h"
 #include "tim.h"
@@ -94,6 +95,8 @@ int main(void)
   MX_IWDG_Init();
   MX_TIM7_Init();
   MX_USB_Device_Init();
+  MX_ADC1_Init();
+  MX_ADC2_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim7);
   InitTimer();
@@ -113,6 +116,12 @@ int main(void)
 
   FLASH_If_Init();
 
+  HAL_ADCEx_Calibration_Start(&hadc1, ADC_SINGLE_ENDED);
+  HAL_ADCEx_Calibration_Start(&hadc2, ADC_SINGLE_ENDED);
+
+  HAL_ADC_Start(&hadc1);
+  HAL_ADC_Start(&hadc2);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -129,6 +138,8 @@ int main(void)
       do {
         ReceiveDisassembly();                 /* 接收PC发来数据 */
       } while (g_ParseResults == enough);
+
+      foot_recv();                            /* 脚底数据处理 */
     }
     if (1 == CheckTimer(SOFT_TIME3)) {
       HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port,LED_GREEN_Pin);
@@ -229,9 +240,9 @@ void SendDatAconformity(void) {
   }
 
   /* 按键写入 */
-  for (int i = 0; i< 14; i++) {
+  for (int i = 0; i< 17; i++) {
     BoaruUploadBuff.fdata[17 + i] = g_key_Buff[i];
-    BoaruUploadBuff.fdata[31 + i] = g_key_Buff[14 + i];
+    BoaruUploadBuff.fdata[34 + i] = g_key_Buff[17 + i];
   }
 
   /* USB串口输出 */

@@ -63,6 +63,9 @@ CMakeFiles/Robot_Chassis_v2.0.elf.dir/USB_Device/App/usbd_cdc_if.c.obj: \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_dma.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_dma_ex.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_cortex.h \
+ C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_adc.h \
+ C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_ll_adc.h \
+ C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_adc_ex.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_exti.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_fdcan.h \
  C:\Users\yanyan6.liu\Master_Hand\Robot_Chassis_v2.0\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_flash.h \
@@ -91,4 +94,5 @@ CMakeFiles/Robot_Chassis_v2.0.elf.dir/USB_Device/App/usbd_cdc_if.c.obj: \
  c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_vofa.h \
  c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_common.h \
  c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_ymodem.h \
- c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_menu.h
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_menu.h \
+ c:\users\yanyan6.liu\master_hand\robot_chassis_v2.0\core\user\inc\my_foot.h
