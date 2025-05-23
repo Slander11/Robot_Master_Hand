@@ -118,14 +118,25 @@ void DataEncapsula(General_Frame *_this, const int16_t *_angle)
     {
         for (int i = 0; i < 17; i++)
         {
-            RingBuffWriteNByte(_this->pack_data_index, &g_key_Buff[i], 1);
+            if (i == 13) {
+                RingBuffWriteNByte(_this->pack_data_index, &g_key_temp[0], 1);
+            }
+            else {
+                RingBuffWriteNByte(_this->pack_data_index, &g_key_Buff[i], 1);
+            }
         }
     }
     else
     {
-        for (int i = 16; i < 32; i++)
+        for (int i = 17; i < 34; i++)
         {
-            RingBuffWriteNByte(_this->pack_data_index, &g_key_Buff[i], 1);
+            if (i == 30) {
+                RingBuffWriteNByte(_this->pack_data_index, &g_key_temp[1], 1);
+            }
+            else {
+                RingBuffWriteNByte(_this->pack_data_index, &g_key_Buff[i], 1);
+            }
+
         }
     }
     RingBuffWriteNByte(_this->pack_data_index,&foot_data,1);

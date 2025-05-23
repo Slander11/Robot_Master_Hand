@@ -25,7 +25,7 @@ FDCAN_RxHeaderTypeDef RXHeader;
 int16_t g_lAngel_Buff[8] = {};                /* 左关节角度 */
 int16_t g_rAngel_Buff[8] = {};                /* 右关节角度 */
 uint8_t g_key_Buff[34] = {};                  /* 按键状态 */
-
+uint8_t g_key_temp[2] = {};
 static void CanFilterInit(void);
 static uint8_t GetFDcanData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg);
 /**
@@ -164,7 +164,7 @@ static void AnalyseData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg,int16_t
     }
     else if (_RxHeader->Identifier == 0x118 && _RxHeader->DataLength == FDCAN_DLC_BYTES_20) {
         for (uint8_t i = 0; i < 14; i++) {
-            g_key_Buff[i + 16] = _RxMsg[i];
+            g_key_Buff[i + 17] = _RxMsg[i];
         }
         trans_data.bit[0] = _RxMsg[14];
         trans_data.bit[1] = _RxMsg[15];
@@ -209,27 +209,35 @@ static void AnalyseData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg,int16_t
         g_key_Buff[14] = 0;
         g_key_Buff[15] = 0;
     }
-    // g_key_Buff[13] = g_key_Buff[13] - 88;
 
-    if (g_key_Buff[29] <= 85) {
-        g_key_Buff[30] = 1;
-        g_key_Buff[31] = 0;
-    }else if (g_key_Buff[29] >= 92) {
-        g_key_Buff[30] = 0;
-        g_key_Buff[31] = 1;
-    }else {
-        g_key_Buff[30] = 0;
-        g_key_Buff[31] = 0;
+    g_key_temp[0] = g_key_Buff[13] - 88;
+    if (g_key_temp[0] >= 30) {
+        g_key_temp[0] = 0;
     }
-    // g_key_Buff[29] = g_key_Buff[29] - 88;
+
+    if (g_key_Buff[30] <= 85) {
+        g_key_Buff[31] = 1;
+        g_key_Buff[32] = 0;
+    }else if (g_key_Buff[30] >= 92) {
+        g_key_Buff[31] = 0;
+        g_key_Buff[32] = 1;
+    }else {
+        g_key_Buff[31] = 0;
+        g_key_Buff[32] = 0;
+    }
+
+    g_key_temp[1] = g_key_Buff[30]-88;
+    if (g_key_temp[1] >= 30) {
+        g_key_temp[1] = 0;
+    }
 
     for (uint8_t i = 0; i < 13; i++) {
         cur_signal |=(uint32_t)g_key_Buff[i] << i;
     }
-    for (uint8_t i = 14; i < 29; i++) {
+    for (uint8_t i = 14; i < 30; i++) {
         cur_signal |=(uint32_t)g_key_Buff[i] << i;
     }
-    for (uint8_t i = 30; i < 32; i++) {
+    for (uint8_t i = 31; i < 33; i++) {
         cur_signal |=(uint32_t)g_key_Buff[i] << i;
     }
 

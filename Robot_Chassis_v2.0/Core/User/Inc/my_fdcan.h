@@ -19,7 +19,7 @@
 extern int16_t g_lAngel_Buff[8];
 extern int16_t g_rAngel_Buff[8];
 extern uint8_t g_key_Buff[34];
-
+extern uint8_t g_key_temp[2];
 void CanInit(void);
 uint8_t CanSendMsg(uint32_t _id, uint8_t *_msg, uint32_t _len);
 

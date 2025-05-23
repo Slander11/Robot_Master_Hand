@@ -226,6 +226,7 @@ void UsbReset(void)
  */
 void SendDatAconformity(void) {
   uint8_t u8_kindid[2] = {0x01,0x53};
+
   GeneralFrameUPInit(&RightArm_Frame, 7, u8_kindid, &RightArm_RingBuff_t);
   GeneralFrameUPInit(&LeftArm_Frame, 6, u8_kindid ,&LeftArm_RingBuff_t);
   DataEncapsula(&RightArm_Frame, g_rAngel_Buff);
@@ -244,7 +245,9 @@ void SendDatAconformity(void) {
     BoaruUploadBuff.fdata[17 + i] = g_key_Buff[i];
     BoaruUploadBuff.fdata[34 + i] = g_key_Buff[17 + i];
   }
-
+  BoaruUploadBuff.fdata[51] = foot_data;
+  BoaruUploadBuff.fdata[52] = g_key_temp[0];
+  BoaruUploadBuff.fdata[53] = g_key_temp[1];
   /* USB串口输出 */
   if (0 == g_OutManner) {
     CDC_Transmit_FS((uint8_t *) &TransData, GetPackSize(&LeftArm_Frame) * 2);
