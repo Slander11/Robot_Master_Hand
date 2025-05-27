@@ -65,6 +65,7 @@ static void CanFilterInit(void)
     {
         Error_Handler();
     }
+
 }
 
 /**
@@ -140,8 +141,11 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *_hfdcan, uint32_t _RxFifo0IT
 static void AnalyseData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg,int16_t *_lAngel, int16_t *_rAngel, uint8_t *_Key)
 {
     BitToHex_value trans_data;
-    uint32_t cur_signal = 0;
-    static uint32_t ber_signal = 0;
+    uint64_t cur_signal = 0;
+    static uint8_t t_key_Buff[34] = {};
+    static uint64_t ber_signal = 0;
+    g_key_Buff[16] = 0;
+    g_key_Buff[33] = 0;
     for (uint8_t i = 0; i < 7; i++) {
         if (_RxHeader->Identifier == 0x101 + i && _RxHeader->DataLength == FDCAN_DLC_BYTES_2) {
             trans_data.bit[0]=_RxMsg[0];
@@ -231,21 +235,24 @@ static void AnalyseData(FDCAN_RxHeaderTypeDef *_RxHeader,uint8_t *_RxMsg,int16_t
         g_key_temp[1] = 0;
     }
 
-    for (uint8_t i = 0; i < 13; i++) {
-        cur_signal |=(uint32_t)g_key_Buff[i] << i;
-    }
-    for (uint8_t i = 14; i < 30; i++) {
-        cur_signal |=(uint32_t)g_key_Buff[i] << i;
-    }
-    for (uint8_t i = 31; i < 33; i++) {
-        cur_signal |=(uint32_t)g_key_Buff[i] << i;
+
+
+    /* 判断signal */
+    g_key_Buff[16] = 0;
+    g_key_Buff[33] = 0;
+
+    for (uint8_t i = 0; i < 33; i++) {
+        if (i == 16 || i == 33 || i == 13) {
+            continue;
+        }
+        if (t_key_Buff[i] != g_key_Buff[i]) {
+            g_key_Buff[16] = 1;
+            g_key_Buff[33] = 1;
+        }
+        t_key_Buff[i] = g_key_Buff[i];
     }
 
-    if (cur_signal != ber_signal)
-        g_key_Buff[16] = 1;
-    else
-        g_key_Buff[16] = 0;
-    ber_signal = cur_signal;
+
 }
 
 /**

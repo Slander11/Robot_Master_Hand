@@ -141,8 +141,8 @@ void DataEncapsula(General_Frame *_this, const int16_t *_angle)
     }
     RingBuffWriteNByte(_this->pack_data_index,&foot_data,1);
     /* 占空 */
-    uint8_t Duy[3] = {};
-    RingBuffWriteNByte(_this->pack_data_index,Duy,3);
+    uint8_t Duy[2] = {};
+    RingBuffWriteNByte(_this->pack_data_index,Duy,2);
 }
 
 /**
